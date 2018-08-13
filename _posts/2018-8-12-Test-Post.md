@@ -3,11 +3,6 @@ layout: post
 title: Primer Post
 ---
 
-Aca subire reseñas de los papers pedidos para el ramo PUC Sistemas recomendadores.
-
-
-```markdown
-
 
 # Adaptive Computation Time
 
@@ -72,5 +67,10 @@ Then both `y_t^n` and `h_t^n` are calculated by feeding the hidden state `s_t^n`
 
 
 
+
+```python
+
+while True:
+	print "Hello world"
 
 ```
