@@ -1,10 +1,7 @@
 ---
 layout: post
-title: Primer Post
+title: Adaptive Computation Time
 ---
-
-
-# Adaptive Computation Time
 
 ### Top-Down explanation of Graves' 2015 paper ["Adaptive Computation Time for Recurrent Neural Networks"](https://arxiv.org/abs/1603.08983)
 
@@ -52,7 +49,7 @@ Where:
 
 And `N(t)` is the first `n_t'` for which the sum of all h_t^n is greater than one minus small epsilon.
 
-![unrolled ACT from paper](assets/ACT.png)
+![unrolled ACT from paper](images/ACT.png)
 
 <br>
 
