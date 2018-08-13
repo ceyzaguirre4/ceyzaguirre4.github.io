@@ -49,7 +49,10 @@ Where:
 
 And `N(t)` is the first `n_t'` for which the sum of all h_t^n is greater than one minus small epsilon.
 
-![unrolled ACT from paper](images/ACT.png)
+<!-- ![unrolled ACT from paper](images/ACT.png) -->
+
+[<img src="{{ site.baseurl }}/images/ACT.png" style="width: 400px;"/>]({{ site.baseurl }}/)
+
 
 <br>
 
