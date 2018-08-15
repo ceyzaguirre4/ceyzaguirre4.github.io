@@ -6,7 +6,7 @@
 name: Cristobal Eyzaguirre
 
 # Short bio or description (displayed in the header)
-description: Web Developer / Data Scientist from Chile
+description: Developer / Data Scientist from Chile
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/20346844?s=460&v=4
@@ -18,10 +18,10 @@ avatar: https://avatars3.githubusercontent.com/u/20346844?s=460&v=4
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: ceyzaguirre4@uc.cl
+  facebook: cristobal.eyzaguirre
   flickr:
-  github: 
+  github: ceyzaguirre4
   instagram:
   linkedin:
   pinterest:
