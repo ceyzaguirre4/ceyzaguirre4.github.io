@@ -1,6 +1,10 @@
+var limitant = Math.min(window.innerWidth / 940, window.innerHeight / 626)
+var adjusted_width = limitant * 940
+var adjusted_height = limitant * 626
+
 var margin = { top: 0, right: 0, bottom: 0, left: 0 },
-  width = window.innerWidth - margin.left - margin.right,
-  height = window.innerHeight - margin.top - margin.bottom,
+  width = adjusted_width,
+  height = adjusted_height,
   centered,
   previousCentered,
   eventGrid,
@@ -8,11 +12,6 @@ var margin = { top: 0, right: 0, bottom: 0, left: 0 },
   labelGrid,
   cellSize,
   subCellSize;
-
-
-var limitant = Math.min(window.innerWidth / 940, window.innerHeight / 626)
-var adjusted_width = limitant * 940
-var adjusted_height = limitant * 626
 
 
 const categories_mapa = {
