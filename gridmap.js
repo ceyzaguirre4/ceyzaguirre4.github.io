@@ -9,6 +9,12 @@ var margin = { top: 0, right: 0, bottom: 0, left: 0 },
   cellSize,
   subCellSize;
 
+
+var limitant = Math.min(window.innerWidth / 940, window.innerHeight / 626)
+var adjusted_width = limitant * 940
+var adjusted_height = limitant * 626
+
+
 const categories_mapa = {
   1: "Arts & Culture",
   2: "Career & Business",
@@ -98,8 +104,8 @@ var myScale = d3.scaleLinear().range([0, 10]);
 var svg = d3
   .select("#vis")
   .append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom);
+  .attr("width", adjusted_width)
+  .attr("height", adjusted_height);
 
 // draw gridlines
 var gridData;
