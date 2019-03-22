@@ -382,7 +382,7 @@ function clicked(selected) {
 
   d3.selectAll(`.label.${selected.code}`)
     .style("font-size", "10px")
-    .attr("y", d => d.y - 5 * subCellSize * shrickLevelHeight);
+    .attr("y", d => d.y - 5 * subCellSize * shrickLevelHeight - 10);
 
   if (previousCentered) {
     d3.select(`.state.${previousCentered.code}`)
