@@ -419,14 +419,14 @@ function clicked(selected) {
         .attr("y", e => e.realy);
     } else if (d.code == selected.code) {
       //  zoomed state
-      var ns = [5, 5, 5, 5, 5];
+      var ns = [0, 0, 0, 0, 0];
       var subcells = d3.selectAll(`.state.${selected.code} .subcell`);
       if (centered) {
         const cats = [0, 0, 0, 0, 0];
         subcells
           .each(e => {
             e.realx = d.x - cellSize / 2 + 1;
-            e.realx = e.realx - 5;
+            e.realx = e.realx;
             e.realy = d.y - (cellSize / 2 + 5) + 1;
             cats[e.index] = e.cat;
 
@@ -472,11 +472,9 @@ function clicked(selected) {
                 }
               }
               return (
-                5 * (subCellSize * shrickLevelWidth) +
                 e.realx +
-                subCellSize * shrickLevelWidth * stackedx
+                subCellSize * shrickLevelWidth * (stackedx)
               );
-              // return 5 + e.realx + (subCellSize * shrickLevelWidth) * (ns[e.index] - 1);
             }
           })
           .attr("y", e => {
@@ -498,7 +496,7 @@ function clicked(selected) {
               .style("stroke", "none")
               .attr(
                 "transform",
-                `translate(${ x - (50 * subCellSize * shrickLevelWidth) + pos  },${y -
+                `translate(${ x - (50 - pos) * (subCellSize * shrickLevelWidth) - 3},${y -
                   (cellSize / 2 + (subCellSize * shrickLevelHeight) / 2 + 1) +
                   i * 2 * subCellSize * shrickLevelHeight})`
               )
