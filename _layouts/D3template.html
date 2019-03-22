@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% include mathjax.html %}
+
+
+<script src='https://d3js.org/d3.v4.min.js' charset='utf-8'></script>
+
+
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div id="vis"></div>
+
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  {% include disqus.html %}
+</article>
