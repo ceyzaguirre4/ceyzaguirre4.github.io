@@ -1,0 +1,1355 @@
+,state,catId,catName,category
+0,AK,1,Arts & Culture,5
+1,AK,2,Career & Business,13
+2,AK,3,Cars & Motorcycles,3
+3,AK,4,Community & Environment,4
+4,AK,5,Dancing,5
+5,AK,6,Education & Learning,5
+6,AK,9,Fitness,7
+7,AK,10,Food & Drink,8
+8,AK,11,Games,2
+9,AK,12,LGBT,2
+10,AK,13,Movements & Politics,4
+11,AK,14,Health & Wellbeing,12
+12,AK,15,Hobbies & Crafts,6
+13,AK,16,Language & Ethnic Identity,8
+14,AK,17,Lifestyle,5
+15,AK,18,Book Clubs,1
+16,AK,20,Movies & Film,2
+17,AK,21,Music,4
+18,AK,22,New Age & Spirituality,15
+19,AK,23,Outdoors & Adventure,17
+20,AK,24,Paranormal,1
+21,AK,25,Parents & Family,7
+22,AK,26,Pets & Animals,7
+23,AK,27,Photography,3
+24,AK,28,Religion & Beliefs,6
+25,AK,31,Socializing,4
+26,AK,32,Sports & Recreation,5
+27,AK,33,Support,2
+28,AK,34,Tech,9
+29,AK,36,Writing,4
+30,AL,1,Arts & Culture,2
+31,AL,2,Career & Business,28
+32,AL,3,Cars & Motorcycles,1
+33,AL,4,Community & Environment,3
+34,AL,5,Dancing,6
+35,AL,6,Education & Learning,2
+36,AL,9,Fitness,6
+37,AL,10,Food & Drink,11
+38,AL,11,Games,9
+39,AL,12,LGBT,5
+40,AL,13,Movements & Politics,9
+41,AL,14,Health & Wellbeing,15
+42,AL,15,Hobbies & Crafts,4
+43,AL,16,Language & Ethnic Identity,6
+44,AL,18,Book Clubs,2
+45,AL,20,Movies & Film,4
+46,AL,21,Music,4
+47,AL,22,New Age & Spirituality,12
+48,AL,23,Outdoors & Adventure,17
+49,AL,24,Paranormal,1
+50,AL,25,Parents & Family,5
+51,AL,26,Pets & Animals,2
+52,AL,27,Photography,2
+53,AL,28,Religion & Beliefs,12
+54,AL,29,Sci-Fi & Fantasy,3
+55,AL,30,Singles,1
+56,AL,31,Socializing,17
+57,AL,32,Sports & Recreation,5
+58,AL,33,Support,4
+59,AL,34,Tech,25
+60,AL,36,Writing,6
+61,AZ,1,Arts & Culture,4
+62,AZ,2,Career & Business,40
+63,AZ,3,Cars & Motorcycles,6
+64,AZ,4,Community & Environment,4
+65,AZ,5,Dancing,5
+66,AZ,6,Education & Learning,2
+67,AZ,9,Fitness,6
+68,AZ,10,Food & Drink,3
+69,AZ,11,Games,6
+70,AZ,12,LGBT,3
+71,AZ,13,Movements & Politics,3
+72,AZ,14,Health & Wellbeing,13
+73,AZ,15,Hobbies & Crafts,4
+74,AZ,16,Language & Ethnic Identity,7
+75,AZ,17,Lifestyle,2
+76,AZ,18,Book Clubs,1
+77,AZ,20,Movies & Film,4
+78,AZ,21,Music,6
+79,AZ,22,New Age & Spirituality,14
+80,AZ,23,Outdoors & Adventure,10
+81,AZ,25,Parents & Family,1
+82,AZ,26,Pets & Animals,1
+83,AZ,27,Photography,2
+84,AZ,28,Religion & Beliefs,3
+85,AZ,31,Socializing,10
+86,AZ,32,Sports & Recreation,7
+87,AZ,33,Support,1
+88,AZ,34,Tech,27
+89,AZ,36,Writing,5
+90,CA,1,Arts & Culture,9
+91,CA,2,Career & Business,29
+92,CA,3,Cars & Motorcycles,4
+93,CA,4,Community & Environment,1
+94,CA,5,Dancing,1
+95,CA,6,Education & Learning,6
+96,CA,9,Fitness,1
+97,CA,10,Food & Drink,3
+98,CA,11,Games,2
+99,CA,12,LGBT,6
+100,CA,13,Movements & Politics,2
+101,CA,14,Health & Wellbeing,6
+102,CA,15,Hobbies & Crafts,2
+103,CA,16,Language & Ethnic Identity,8
+104,CA,18,Book Clubs,1
+105,CA,20,Movies & Film,6
+106,CA,21,Music,7
+107,CA,22,New Age & Spirituality,12
+108,CA,23,Outdoors & Adventure,6
+109,CA,25,Parents & Family,2
+110,CA,27,Photography,7
+111,CA,31,Socializing,6
+112,CA,32,Sports & Recreation,11
+113,CA,33,Support,4
+114,CA,34,Tech,55
+115,CA,36,Writing,3
+116,CO,1,Arts & Culture,7
+117,CO,2,Career & Business,37
+118,CO,3,Cars & Motorcycles,1
+119,CO,4,Community & Environment,5
+120,CO,5,Dancing,2
+121,CO,6,Education & Learning,2
+122,CO,9,Fitness,4
+123,CO,10,Food & Drink,5
+124,CO,11,Games,7
+125,CO,12,LGBT,6
+126,CO,13,Movements & Politics,1
+127,CO,14,Health & Wellbeing,10
+128,CO,15,Hobbies & Crafts,2
+129,CO,16,Language & Ethnic Identity,6
+130,CO,18,Book Clubs,2
+131,CO,20,Movies & Film,1
+132,CO,21,Music,4
+133,CO,22,New Age & Spirituality,3
+134,CO,23,Outdoors & Adventure,11
+135,CO,25,Parents & Family,1
+136,CO,26,Pets & Animals,1
+137,CO,27,Photography,2
+138,CO,28,Religion & Beliefs,3
+139,CO,29,Sci-Fi & Fantasy,1
+140,CO,30,Singles,3
+141,CO,31,Socializing,16
+142,CO,32,Sports & Recreation,3
+143,CO,33,Support,4
+144,CO,34,Tech,48
+145,CO,36,Writing,2
+146,CT,1,Arts & Culture,4
+147,CT,2,Career & Business,16
+148,CT,3,Cars & Motorcycles,2
+149,CT,4,Community & Environment,2
+150,CT,5,Dancing,9
+151,CT,6,Education & Learning,6
+152,CT,9,Fitness,7
+153,CT,10,Food & Drink,7
+154,CT,11,Games,2
+155,CT,12,LGBT,7
+156,CT,13,Movements & Politics,4
+157,CT,14,Health & Wellbeing,20
+158,CT,15,Hobbies & Crafts,1
+159,CT,16,Language & Ethnic Identity,8
+160,CT,17,Lifestyle,1
+161,CT,18,Book Clubs,6
+162,CT,20,Movies & Film,3
+163,CT,21,Music,4
+164,CT,22,New Age & Spirituality,6
+165,CT,23,Outdoors & Adventure,11
+166,CT,25,Parents & Family,3
+167,CT,26,Pets & Animals,2
+168,CT,27,Photography,3
+169,CT,28,Religion & Beliefs,5
+170,CT,29,Sci-Fi & Fantasy,2
+171,CT,31,Socializing,20
+172,CT,32,Sports & Recreation,7
+173,CT,33,Support,8
+174,CT,34,Tech,21
+175,CT,36,Writing,3
+176,DC,1,Arts & Culture,2
+177,DC,2,Career & Business,20
+178,DC,4,Community & Environment,5
+179,DC,5,Dancing,4
+180,DC,6,Education & Learning,3
+181,DC,9,Fitness,6
+182,DC,10,Food & Drink,5
+183,DC,11,Games,5
+184,DC,12,LGBT,5
+185,DC,13,Movements & Politics,3
+186,DC,14,Health & Wellbeing,9
+187,DC,15,Hobbies & Crafts,1
+188,DC,16,Language & Ethnic Identity,23
+189,DC,18,Book Clubs,5
+190,DC,20,Movies & Film,2
+191,DC,21,Music,6
+192,DC,22,New Age & Spirituality,4
+193,DC,23,Outdoors & Adventure,13
+194,DC,25,Parents & Family,2
+195,DC,26,Pets & Animals,2
+196,DC,27,Photography,3
+197,DC,28,Religion & Beliefs,6
+198,DC,29,Sci-Fi & Fantasy,1
+199,DC,30,Singles,3
+200,DC,31,Socializing,18
+201,DC,32,Sports & Recreation,7
+202,DC,33,Support,2
+203,DC,34,Tech,32
+204,DC,36,Writing,3
+205,DE,1,Arts & Culture,4
+206,DE,2,Career & Business,20
+207,DE,3,Cars & Motorcycles,4
+208,DE,4,Community & Environment,5
+209,DE,5,Dancing,2
+210,DE,6,Education & Learning,3
+211,DE,8,Fashion & Beauty,1
+212,DE,9,Fitness,8
+213,DE,10,Food & Drink,8
+214,DE,11,Games,10
+215,DE,12,LGBT,2
+216,DE,13,Movements & Politics,5
+217,DE,14,Health & Wellbeing,16
+218,DE,15,Hobbies & Crafts,3
+219,DE,16,Language & Ethnic Identity,4
+220,DE,18,Book Clubs,4
+221,DE,20,Movies & Film,3
+222,DE,21,Music,4
+223,DE,22,New Age & Spirituality,12
+224,DE,23,Outdoors & Adventure,10
+225,DE,24,Paranormal,2
+226,DE,25,Parents & Family,7
+227,DE,26,Pets & Animals,1
+228,DE,27,Photography,2
+229,DE,28,Religion & Beliefs,7
+230,DE,29,Sci-Fi & Fantasy,2
+231,DE,30,Singles,1
+232,DE,31,Socializing,21
+233,DE,32,Sports & Recreation,6
+234,DE,33,Support,1
+235,DE,34,Tech,11
+236,DE,36,Writing,7
+237,FL,1,Arts & Culture,8
+238,FL,2,Career & Business,42
+239,FL,3,Cars & Motorcycles,1
+240,FL,4,Community & Environment,6
+241,FL,5,Dancing,4
+242,FL,6,Education & Learning,7
+243,FL,8,Fashion & Beauty,2
+244,FL,9,Fitness,8
+245,FL,10,Food & Drink,4
+246,FL,11,Games,5
+247,FL,12,LGBT,6
+248,FL,13,Movements & Politics,1
+249,FL,14,Health & Wellbeing,17
+250,FL,15,Hobbies & Crafts,2
+251,FL,16,Language & Ethnic Identity,3
+252,FL,18,Book Clubs,2
+253,FL,21,Music,2
+254,FL,22,New Age & Spirituality,5
+255,FL,23,Outdoors & Adventure,8
+256,FL,25,Parents & Family,7
+257,FL,26,Pets & Animals,3
+258,FL,27,Photography,3
+259,FL,28,Religion & Beliefs,4
+260,FL,29,Sci-Fi & Fantasy,1
+261,FL,31,Socializing,7
+262,FL,32,Sports & Recreation,8
+263,FL,33,Support,1
+264,FL,34,Tech,33
+265,GA,1,Arts & Culture,3
+266,GA,2,Career & Business,38
+267,GA,4,Community & Environment,4
+268,GA,5,Dancing,2
+269,GA,6,Education & Learning,4
+270,GA,8,Fashion & Beauty,2
+271,GA,9,Fitness,1
+272,GA,10,Food & Drink,6
+273,GA,11,Games,2
+274,GA,12,LGBT,7
+275,GA,13,Movements & Politics,1
+276,GA,14,Health & Wellbeing,8
+277,GA,16,Language & Ethnic Identity,7
+278,GA,18,Book Clubs,7
+279,GA,20,Movies & Film,2
+280,GA,21,Music,4
+281,GA,22,New Age & Spirituality,5
+282,GA,23,Outdoors & Adventure,13
+283,GA,25,Parents & Family,1
+284,GA,26,Pets & Animals,1
+285,GA,27,Photography,1
+286,GA,28,Religion & Beliefs,2
+287,GA,29,Sci-Fi & Fantasy,2
+288,GA,30,Singles,3
+289,GA,31,Socializing,15
+290,GA,32,Sports & Recreation,6
+291,GA,33,Support,1
+292,GA,34,Tech,48
+293,GA,36,Writing,4
+294,HI,2,Career & Business,28
+295,HI,3,Cars & Motorcycles,1
+296,HI,4,Community & Environment,2
+297,HI,5,Dancing,5
+298,HI,6,Education & Learning,3
+299,HI,8,Fashion & Beauty,2
+300,HI,9,Fitness,14
+301,HI,10,Food & Drink,5
+302,HI,11,Games,4
+303,HI,12,LGBT,2
+304,HI,13,Movements & Politics,2
+305,HI,14,Health & Wellbeing,30
+306,HI,16,Language & Ethnic Identity,9
+307,HI,18,Book Clubs,2
+308,HI,20,Movies & Film,3
+309,HI,21,Music,3
+310,HI,22,New Age & Spirituality,11
+311,HI,23,Outdoors & Adventure,15
+312,HI,25,Parents & Family,4
+313,HI,26,Pets & Animals,3
+314,HI,27,Photography,2
+315,HI,28,Religion & Beliefs,5
+316,HI,29,Sci-Fi & Fantasy,1
+317,HI,31,Socializing,16
+318,HI,32,Sports & Recreation,8
+319,HI,33,Support,2
+320,HI,34,Tech,17
+321,HI,36,Writing,1
+322,IA,1,Arts & Culture,3
+323,IA,2,Career & Business,20
+324,IA,4,Community & Environment,3
+325,IA,6,Education & Learning,2
+326,IA,9,Fitness,2
+327,IA,10,Food & Drink,7
+328,IA,11,Games,7
+329,IA,12,LGBT,1
+330,IA,13,Movements & Politics,2
+331,IA,14,Health & Wellbeing,9
+332,IA,15,Hobbies & Crafts,2
+333,IA,16,Language & Ethnic Identity,2
+334,IA,17,Lifestyle,2
+335,IA,18,Book Clubs,2
+336,IA,20,Movies & Film,2
+337,IA,21,Music,3
+338,IA,22,New Age & Spirituality,5
+339,IA,23,Outdoors & Adventure,1
+340,IA,25,Parents & Family,4
+341,IA,27,Photography,1
+342,IA,28,Religion & Beliefs,6
+343,IA,31,Socializing,6
+344,IA,32,Sports & Recreation,3
+345,IA,33,Support,4
+346,IA,34,Tech,19
+347,IA,36,Writing,1
+348,ID,1,Arts & Culture,1
+349,ID,2,Career & Business,20
+350,ID,5,Dancing,2
+351,ID,9,Fitness,1
+352,ID,10,Food & Drink,1
+353,ID,11,Games,4
+354,ID,13,Movements & Politics,1
+355,ID,14,Health & Wellbeing,6
+356,ID,16,Language & Ethnic Identity,2
+357,ID,17,Lifestyle,1
+358,ID,22,New Age & Spirituality,2
+359,ID,23,Outdoors & Adventure,2
+360,ID,25,Parents & Family,2
+361,ID,28,Religion & Beliefs,3
+362,ID,31,Socializing,1
+363,ID,34,Tech,13
+364,IL,1,Arts & Culture,3
+365,IL,2,Career & Business,38
+366,IL,3,Cars & Motorcycles,4
+367,IL,4,Community & Environment,6
+368,IL,5,Dancing,2
+369,IL,6,Education & Learning,4
+370,IL,9,Fitness,2
+371,IL,10,Food & Drink,15
+372,IL,11,Games,10
+373,IL,12,LGBT,2
+374,IL,13,Movements & Politics,5
+375,IL,14,Health & Wellbeing,9
+376,IL,16,Language & Ethnic Identity,8
+377,IL,17,Lifestyle,1
+378,IL,18,Book Clubs,3
+379,IL,20,Movies & Film,4
+380,IL,21,Music,4
+381,IL,22,New Age & Spirituality,8
+382,IL,23,Outdoors & Adventure,20
+383,IL,24,Paranormal,2
+384,IL,25,Parents & Family,3
+385,IL,26,Pets & Animals,1
+386,IL,27,Photography,1
+387,IL,28,Religion & Beliefs,3
+388,IL,29,Sci-Fi & Fantasy,3
+389,IL,30,Singles,5
+390,IL,31,Socializing,26
+391,IL,32,Sports & Recreation,6
+392,IL,33,Support,3
+393,IL,34,Tech,77
+394,IL,36,Writing,3
+395,IN,1,Arts & Culture,1
+396,IN,2,Career & Business,33
+397,IN,4,Community & Environment,3
+398,IN,5,Dancing,2
+399,IN,6,Education & Learning,8
+400,IN,8,Fashion & Beauty,2
+401,IN,9,Fitness,6
+402,IN,10,Food & Drink,12
+403,IN,11,Games,10
+404,IN,12,LGBT,3
+405,IN,13,Movements & Politics,1
+406,IN,14,Health & Wellbeing,9
+407,IN,15,Hobbies & Crafts,4
+408,IN,16,Language & Ethnic Identity,3
+409,IN,17,Lifestyle,1
+410,IN,18,Book Clubs,2
+411,IN,20,Movies & Film,2
+412,IN,21,Music,5
+413,IN,22,New Age & Spirituality,9
+414,IN,23,Outdoors & Adventure,14
+415,IN,25,Parents & Family,2
+416,IN,27,Photography,2
+417,IN,28,Religion & Beliefs,7
+418,IN,30,Singles,3
+419,IN,31,Socializing,13
+420,IN,32,Sports & Recreation,4
+421,IN,33,Support,4
+422,IN,34,Tech,38
+423,IN,36,Writing,4
+424,KS,1,Arts & Culture,2
+425,KS,2,Career & Business,27
+426,KS,4,Community & Environment,4
+427,KS,5,Dancing,3
+428,KS,6,Education & Learning,2
+429,KS,9,Fitness,1
+430,KS,10,Food & Drink,9
+431,KS,11,Games,8
+432,KS,13,Movements & Politics,5
+433,KS,14,Health & Wellbeing,5
+434,KS,16,Language & Ethnic Identity,2
+435,KS,17,Lifestyle,1
+436,KS,18,Book Clubs,1
+437,KS,20,Movies & Film,1
+438,KS,21,Music,2
+439,KS,22,New Age & Spirituality,7
+440,KS,23,Outdoors & Adventure,4
+441,KS,25,Parents & Family,4
+442,KS,26,Pets & Animals,4
+443,KS,27,Photography,1
+444,KS,28,Religion & Beliefs,8
+445,KS,29,Sci-Fi & Fantasy,1
+446,KS,30,Singles,1
+447,KS,31,Socializing,4
+448,KS,32,Sports & Recreation,4
+449,KS,33,Support,3
+450,KS,34,Tech,16
+451,KS,36,Writing,6
+452,KY,2,Career & Business,8
+453,KY,3,Cars & Motorcycles,1
+454,KY,4,Community & Environment,1
+455,KY,6,Education & Learning,6
+456,KY,9,Fitness,1
+457,KY,10,Food & Drink,8
+458,KY,11,Games,7
+459,KY,12,LGBT,1
+460,KY,13,Movements & Politics,1
+461,KY,14,Health & Wellbeing,6
+462,KY,15,Hobbies & Crafts,3
+463,KY,16,Language & Ethnic Identity,6
+464,KY,18,Book Clubs,2
+465,KY,20,Movies & Film,1
+466,KY,21,Music,1
+467,KY,22,New Age & Spirituality,10
+468,KY,23,Outdoors & Adventure,7
+469,KY,24,Paranormal,1
+470,KY,25,Parents & Family,3
+471,KY,26,Pets & Animals,1
+472,KY,28,Religion & Beliefs,8
+473,KY,30,Singles,1
+474,KY,31,Socializing,9
+475,KY,32,Sports & Recreation,7
+476,KY,33,Support,2
+477,KY,34,Tech,13
+478,LA,1,Arts & Culture,8
+479,LA,2,Career & Business,29
+480,LA,4,Community & Environment,4
+481,LA,5,Dancing,11
+482,LA,6,Education & Learning,6
+483,LA,9,Fitness,5
+484,LA,10,Food & Drink,17
+485,LA,11,Games,8
+486,LA,12,LGBT,6
+487,LA,13,Movements & Politics,5
+488,LA,14,Health & Wellbeing,30
+489,LA,15,Hobbies & Crafts,3
+490,LA,16,Language & Ethnic Identity,21
+491,LA,17,Lifestyle,2
+492,LA,18,Book Clubs,14
+493,LA,20,Movies & Film,12
+494,LA,21,Music,5
+495,LA,22,New Age & Spirituality,22
+496,LA,23,Outdoors & Adventure,9
+497,LA,25,Parents & Family,6
+498,LA,28,Religion & Beliefs,16
+499,LA,29,Sci-Fi & Fantasy,3
+500,LA,30,Singles,2
+501,LA,31,Socializing,16
+502,LA,32,Sports & Recreation,4
+503,LA,33,Support,7
+504,LA,34,Tech,39
+505,LA,36,Writing,6
+506,MA,1,Arts & Culture,4
+507,MA,2,Career & Business,22
+508,MA,3,Cars & Motorcycles,1
+509,MA,5,Dancing,1
+510,MA,6,Education & Learning,9
+511,MA,8,Fashion & Beauty,2
+512,MA,9,Fitness,8
+513,MA,10,Food & Drink,8
+514,MA,11,Games,4
+515,MA,12,LGBT,7
+516,MA,13,Movements & Politics,2
+517,MA,14,Health & Wellbeing,5
+518,MA,15,Hobbies & Crafts,1
+519,MA,16,Language & Ethnic Identity,6
+520,MA,18,Book Clubs,4
+521,MA,20,Movies & Film,4
+522,MA,21,Music,3
+523,MA,22,New Age & Spirituality,2
+524,MA,23,Outdoors & Adventure,6
+525,MA,25,Parents & Family,1
+526,MA,26,Pets & Animals,3
+527,MA,27,Photography,5
+528,MA,28,Religion & Beliefs,1
+529,MA,29,Sci-Fi & Fantasy,2
+530,MA,30,Singles,1
+531,MA,31,Socializing,18
+532,MA,32,Sports & Recreation,3
+533,MA,33,Support,1
+534,MA,34,Tech,65
+535,MA,36,Writing,1
+536,MB,1,Arts & Culture,7
+537,MB,2,Career & Business,27
+538,MB,4,Community & Environment,2
+539,MB,5,Dancing,3
+540,MB,6,Education & Learning,10
+541,MB,9,Fitness,5
+542,MB,10,Food & Drink,4
+543,MB,11,Games,6
+544,MB,12,LGBT,1
+545,MB,13,Movements & Politics,3
+546,MB,14,Health & Wellbeing,21
+547,MB,15,Hobbies & Crafts,2
+548,MB,16,Language & Ethnic Identity,7
+549,MB,18,Book Clubs,1
+550,MB,20,Movies & Film,1
+551,MB,21,Music,3
+552,MB,22,New Age & Spirituality,11
+553,MB,23,Outdoors & Adventure,11
+554,MB,24,Paranormal,1
+555,MB,25,Parents & Family,3
+556,MB,26,Pets & Animals,1
+557,MB,27,Photography,1
+558,MB,28,Religion & Beliefs,7
+559,MB,29,Sci-Fi & Fantasy,1
+560,MB,30,Singles,2
+561,MB,31,Socializing,11
+562,MB,32,Sports & Recreation,3
+563,MB,33,Support,1
+564,MB,34,Tech,33
+565,MB,36,Writing,5
+566,MD,1,Arts & Culture,8
+567,MD,2,Career & Business,32
+568,MD,3,Cars & Motorcycles,1
+569,MD,4,Community & Environment,4
+570,MD,5,Dancing,6
+571,MD,6,Education & Learning,3
+572,MD,8,Fashion & Beauty,1
+573,MD,9,Fitness,6
+574,MD,10,Food & Drink,9
+575,MD,11,Games,4
+576,MD,12,LGBT,6
+577,MD,13,Movements & Politics,2
+578,MD,14,Health & Wellbeing,9
+579,MD,15,Hobbies & Crafts,5
+580,MD,16,Language & Ethnic Identity,9
+581,MD,18,Book Clubs,6
+582,MD,20,Movies & Film,3
+583,MD,21,Music,5
+584,MD,22,New Age & Spirituality,7
+585,MD,23,Outdoors & Adventure,11
+586,MD,25,Parents & Family,1
+587,MD,26,Pets & Animals,4
+588,MD,27,Photography,3
+589,MD,28,Religion & Beliefs,7
+590,MD,30,Singles,3
+591,MD,31,Socializing,20
+592,MD,32,Sports & Recreation,3
+593,MD,33,Support,3
+594,MD,34,Tech,20
+595,MD,36,Writing,2
+596,ME,1,Arts & Culture,3
+597,ME,2,Career & Business,12
+598,ME,3,Cars & Motorcycles,1
+599,ME,4,Community & Environment,6
+600,ME,5,Dancing,3
+601,ME,6,Education & Learning,2
+602,ME,9,Fitness,3
+603,ME,10,Food & Drink,6
+604,ME,11,Games,5
+605,ME,12,LGBT,7
+606,ME,13,Movements & Politics,3
+607,ME,14,Health & Wellbeing,29
+608,ME,15,Hobbies & Crafts,3
+609,ME,16,Language & Ethnic Identity,6
+610,ME,17,Lifestyle,1
+611,ME,18,Book Clubs,1
+612,ME,20,Movies & Film,2
+613,ME,21,Music,7
+614,ME,22,New Age & Spirituality,27
+615,ME,23,Outdoors & Adventure,23
+616,ME,24,Paranormal,1
+617,ME,25,Parents & Family,5
+618,ME,26,Pets & Animals,2
+619,ME,27,Photography,2
+620,ME,28,Religion & Beliefs,7
+621,ME,29,Sci-Fi & Fantasy,2
+622,ME,31,Socializing,10
+623,ME,32,Sports & Recreation,4
+624,ME,33,Support,3
+625,ME,34,Tech,14
+626,MI,1,Arts & Culture,4
+627,MI,2,Career & Business,16
+628,MI,4,Community & Environment,5
+629,MI,5,Dancing,3
+630,MI,6,Education & Learning,5
+631,MI,9,Fitness,6
+632,MI,10,Food & Drink,11
+633,MI,11,Games,11
+634,MI,13,Movements & Politics,4
+635,MI,14,Health & Wellbeing,16
+636,MI,15,Hobbies & Crafts,5
+637,MI,16,Language & Ethnic Identity,5
+638,MI,17,Lifestyle,1
+639,MI,18,Book Clubs,3
+640,MI,20,Movies & Film,1
+641,MI,21,Music,4
+642,MI,22,New Age & Spirituality,9
+643,MI,23,Outdoors & Adventure,7
+644,MI,25,Parents & Family,9
+645,MI,26,Pets & Animals,1
+646,MI,27,Photography,2
+647,MI,28,Religion & Beliefs,8
+648,MI,30,Singles,1
+649,MI,31,Socializing,17
+650,MI,32,Sports & Recreation,6
+651,MI,33,Support,3
+652,MI,34,Tech,28
+653,MI,36,Writing,2
+654,MN,1,Arts & Culture,3
+655,MN,2,Career & Business,7
+656,MN,6,Education & Learning,2
+657,MN,9,Fitness,2
+658,MN,11,Games,2
+659,MN,13,Movements & Politics,1
+660,MN,14,Health & Wellbeing,3
+661,MN,16,Language & Ethnic Identity,2
+662,MN,18,Book Clubs,1
+663,MN,20,Movies & Film,1
+664,MN,21,Music,1
+665,MN,22,New Age & Spirituality,2
+666,MN,23,Outdoors & Adventure,4
+667,MN,26,Pets & Animals,1
+668,MN,28,Religion & Beliefs,1
+669,MN,31,Socializing,1
+670,MN,33,Support,1
+671,MN,34,Tech,6
+672,MO,1,Arts & Culture,2
+673,MO,2,Career & Business,24
+674,MO,3,Cars & Motorcycles,1
+675,MO,4,Community & Environment,7
+676,MO,5,Dancing,4
+677,MO,6,Education & Learning,3
+678,MO,9,Fitness,1
+679,MO,10,Food & Drink,7
+680,MO,11,Games,7
+681,MO,12,LGBT,3
+682,MO,13,Movements & Politics,6
+683,MO,14,Health & Wellbeing,11
+684,MO,15,Hobbies & Crafts,2
+685,MO,16,Language & Ethnic Identity,6
+686,MO,18,Book Clubs,4
+687,MO,20,Movies & Film,3
+688,MO,21,Music,5
+689,MO,22,New Age & Spirituality,11
+690,MO,23,Outdoors & Adventure,10
+691,MO,25,Parents & Family,2
+692,MO,26,Pets & Animals,2
+693,MO,27,Photography,1
+694,MO,28,Religion & Beliefs,3
+695,MO,29,Sci-Fi & Fantasy,1
+696,MO,30,Singles,1
+697,MO,31,Socializing,9
+698,MO,32,Sports & Recreation,5
+699,MO,33,Support,6
+700,MO,34,Tech,46
+701,MO,36,Writing,7
+702,MS,2,Career & Business,7
+703,MS,4,Community & Environment,1
+704,MS,5,Dancing,1
+705,MS,9,Fitness,1
+706,MS,11,Games,2
+707,MS,14,Health & Wellbeing,3
+708,MS,15,Hobbies & Crafts,2
+709,MS,16,Language & Ethnic Identity,1
+710,MS,20,Movies & Film,2
+711,MS,22,New Age & Spirituality,4
+712,MS,23,Outdoors & Adventure,3
+713,MS,26,Pets & Animals,2
+714,MS,28,Religion & Beliefs,2
+715,MS,31,Socializing,1
+716,MS,32,Sports & Recreation,1
+717,MS,33,Support,4
+718,MS,34,Tech,4
+719,MT,2,Career & Business,4
+720,MT,4,Community & Environment,3
+721,MT,5,Dancing,1
+722,MT,10,Food & Drink,1
+723,MT,11,Games,3
+724,MT,13,Movements & Politics,2
+725,MT,14,Health & Wellbeing,3
+726,MT,15,Hobbies & Crafts,1
+727,MT,17,Lifestyle,1
+728,MT,18,Book Clubs,1
+729,MT,21,Music,1
+730,MT,22,New Age & Spirituality,3
+731,MT,23,Outdoors & Adventure,3
+732,MT,27,Photography,1
+733,MT,28,Religion & Beliefs,1
+734,MT,31,Socializing,1
+735,MT,33,Support,1
+736,MT,36,Writing,1
+737,NC,1,Arts & Culture,9
+738,NC,2,Career & Business,20
+739,NC,3,Cars & Motorcycles,2
+740,NC,4,Community & Environment,13
+741,NC,5,Dancing,8
+742,NC,6,Education & Learning,2
+743,NC,9,Fitness,11
+744,NC,10,Food & Drink,7
+745,NC,11,Games,7
+746,NC,12,LGBT,4
+747,NC,13,Movements & Politics,3
+748,NC,14,Health & Wellbeing,9
+749,NC,15,Hobbies & Crafts,6
+750,NC,16,Language & Ethnic Identity,5
+751,NC,17,Lifestyle,2
+752,NC,18,Book Clubs,3
+753,NC,20,Movies & Film,3
+754,NC,21,Music,10
+755,NC,22,New Age & Spirituality,9
+756,NC,23,Outdoors & Adventure,9
+757,NC,25,Parents & Family,2
+758,NC,26,Pets & Animals,3
+759,NC,27,Photography,1
+760,NC,28,Religion & Beliefs,5
+761,NC,29,Sci-Fi & Fantasy,3
+762,NC,30,Singles,2
+763,NC,31,Socializing,10
+764,NC,32,Sports & Recreation,10
+765,NC,33,Support,7
+766,NC,34,Tech,31
+767,NC,36,Writing,2
+768,ND,1,Arts & Culture,1
+769,ND,2,Career & Business,6
+770,ND,4,Community & Environment,1
+771,ND,5,Dancing,1
+772,ND,6,Education & Learning,4
+773,ND,10,Food & Drink,1
+774,ND,11,Games,6
+775,ND,12,LGBT,1
+776,ND,13,Movements & Politics,3
+777,ND,14,Health & Wellbeing,4
+778,ND,16,Language & Ethnic Identity,1
+779,ND,17,Lifestyle,1
+780,ND,18,Book Clubs,1
+781,ND,20,Movies & Film,2
+782,ND,21,Music,1
+783,ND,22,New Age & Spirituality,3
+784,ND,23,Outdoors & Adventure,2
+785,ND,28,Religion & Beliefs,1
+786,ND,29,Sci-Fi & Fantasy,1
+787,ND,31,Socializing,3
+788,ND,34,Tech,10
+789,NE,2,Career & Business,9
+790,NE,4,Community & Environment,1
+791,NE,5,Dancing,2
+792,NE,6,Education & Learning,5
+793,NE,9,Fitness,1
+794,NE,10,Food & Drink,3
+795,NE,11,Games,4
+796,NE,12,LGBT,2
+797,NE,13,Movements & Politics,2
+798,NE,14,Health & Wellbeing,5
+799,NE,15,Hobbies & Crafts,5
+800,NE,16,Language & Ethnic Identity,2
+801,NE,17,Lifestyle,1
+802,NE,18,Book Clubs,2
+803,NE,21,Music,1
+804,NE,22,New Age & Spirituality,5
+805,NE,23,Outdoors & Adventure,5
+806,NE,24,Paranormal,1
+807,NE,25,Parents & Family,1
+808,NE,27,Photography,1
+809,NE,28,Religion & Beliefs,3
+810,NE,29,Sci-Fi & Fantasy,1
+811,NE,31,Socializing,3
+812,NE,34,Tech,22
+813,NE,36,Writing,1
+814,NH,1,Arts & Culture,3
+815,NH,2,Career & Business,11
+816,NH,4,Community & Environment,6
+817,NH,5,Dancing,7
+818,NH,6,Education & Learning,1
+819,NH,9,Fitness,10
+820,NH,10,Food & Drink,9
+821,NH,11,Games,8
+822,NH,12,LGBT,8
+823,NH,13,Movements & Politics,5
+824,NH,14,Health & Wellbeing,15
+825,NH,15,Hobbies & Crafts,5
+826,NH,16,Language & Ethnic Identity,10
+827,NH,18,Book Clubs,1
+828,NH,20,Movies & Film,1
+829,NH,21,Music,8
+830,NH,22,New Age & Spirituality,24
+831,NH,23,Outdoors & Adventure,24
+832,NH,24,Paranormal,3
+833,NH,25,Parents & Family,6
+834,NH,26,Pets & Animals,1
+835,NH,27,Photography,4
+836,NH,28,Religion & Beliefs,3
+837,NH,29,Sci-Fi & Fantasy,1
+838,NH,30,Singles,4
+839,NH,31,Socializing,10
+840,NH,32,Sports & Recreation,9
+841,NH,33,Support,3
+842,NH,34,Tech,15
+843,NH,36,Writing,1
+844,NJ,1,Arts & Culture,5
+845,NJ,2,Career & Business,23
+846,NJ,3,Cars & Motorcycles,2
+847,NJ,4,Community & Environment,2
+848,NJ,5,Dancing,7
+849,NJ,6,Education & Learning,3
+850,NJ,9,Fitness,6
+851,NJ,10,Food & Drink,8
+852,NJ,11,Games,6
+853,NJ,12,LGBT,7
+854,NJ,13,Movements & Politics,1
+855,NJ,14,Health & Wellbeing,23
+856,NJ,15,Hobbies & Crafts,2
+857,NJ,16,Language & Ethnic Identity,5
+858,NJ,18,Book Clubs,4
+859,NJ,20,Movies & Film,1
+860,NJ,21,Music,8
+861,NJ,22,New Age & Spirituality,13
+862,NJ,23,Outdoors & Adventure,10
+863,NJ,25,Parents & Family,9
+864,NJ,26,Pets & Animals,1
+865,NJ,27,Photography,5
+866,NJ,28,Religion & Beliefs,2
+867,NJ,29,Sci-Fi & Fantasy,1
+868,NJ,30,Singles,6
+869,NJ,31,Socializing,14
+870,NJ,32,Sports & Recreation,11
+871,NJ,33,Support,3
+872,NJ,34,Tech,9
+873,NJ,36,Writing,3
+874,NV,1,Arts & Culture,3
+875,NV,2,Career & Business,21
+876,NV,3,Cars & Motorcycles,2
+877,NV,4,Community & Environment,5
+878,NV,5,Dancing,4
+879,NV,6,Education & Learning,6
+880,NV,9,Fitness,7
+881,NV,10,Food & Drink,6
+882,NV,11,Games,4
+883,NV,12,LGBT,5
+884,NV,13,Movements & Politics,3
+885,NV,14,Health & Wellbeing,16
+886,NV,15,Hobbies & Crafts,5
+887,NV,16,Language & Ethnic Identity,8
+888,NV,17,Lifestyle,4
+889,NV,18,Book Clubs,3
+890,NV,20,Movies & Film,2
+891,NV,21,Music,2
+892,NV,22,New Age & Spirituality,11
+893,NV,23,Outdoors & Adventure,19
+894,NV,24,Paranormal,1
+895,NV,25,Parents & Family,4
+896,NV,26,Pets & Animals,2
+897,NV,27,Photography,1
+898,NV,28,Religion & Beliefs,5
+899,NV,30,Singles,3
+900,NV,31,Socializing,17
+901,NV,32,Sports & Recreation,8
+902,NV,33,Support,2
+903,NV,34,Tech,16
+904,NV,36,Writing,5
+905,NY,1,Arts & Culture,3
+906,NY,2,Career & Business,21
+907,NY,3,Cars & Motorcycles,1
+908,NY,4,Community & Environment,1
+909,NY,5,Dancing,2
+910,NY,6,Education & Learning,4
+911,NY,9,Fitness,1
+912,NY,10,Food & Drink,6
+913,NY,11,Games,4
+914,NY,12,LGBT,6
+915,NY,13,Movements & Politics,2
+916,NY,14,Health & Wellbeing,7
+917,NY,16,Language & Ethnic Identity,13
+918,NY,18,Book Clubs,2
+919,NY,21,Music,4
+920,NY,22,New Age & Spirituality,3
+921,NY,23,Outdoors & Adventure,9
+922,NY,25,Parents & Family,2
+923,NY,26,Pets & Animals,1
+924,NY,27,Photography,2
+925,NY,28,Religion & Beliefs,2
+926,NY,29,Sci-Fi & Fantasy,4
+927,NY,30,Singles,2
+928,NY,31,Socializing,13
+929,NY,32,Sports & Recreation,8
+930,NY,33,Support,1
+931,NY,34,Tech,87
+932,NY,36,Writing,1
+933,OH,1,Arts & Culture,4
+934,OH,2,Career & Business,33
+935,OH,3,Cars & Motorcycles,1
+936,OH,4,Community & Environment,5
+937,OH,5,Dancing,5
+938,OH,6,Education & Learning,2
+939,OH,8,Fashion & Beauty,1
+940,OH,9,Fitness,4
+941,OH,10,Food & Drink,6
+942,OH,11,Games,5
+943,OH,12,LGBT,3
+944,OH,13,Movements & Politics,2
+945,OH,14,Health & Wellbeing,13
+946,OH,16,Language & Ethnic Identity,12
+947,OH,17,Lifestyle,5
+948,OH,18,Book Clubs,2
+949,OH,20,Movies & Film,1
+950,OH,21,Music,3
+951,OH,22,New Age & Spirituality,5
+952,OH,23,Outdoors & Adventure,10
+953,OH,25,Parents & Family,5
+954,OH,26,Pets & Animals,3
+955,OH,27,Photography,1
+956,OH,28,Religion & Beliefs,2
+957,OH,29,Sci-Fi & Fantasy,2
+958,OH,30,Singles,1
+959,OH,31,Socializing,10
+960,OH,32,Sports & Recreation,5
+961,OH,33,Support,5
+962,OH,34,Tech,38
+963,OH,36,Writing,6
+964,OK,1,Arts & Culture,6
+965,OK,2,Career & Business,38
+966,OK,3,Cars & Motorcycles,1
+967,OK,4,Community & Environment,3
+968,OK,5,Dancing,3
+969,OK,6,Education & Learning,6
+970,OK,8,Fashion & Beauty,1
+971,OK,9,Fitness,2
+972,OK,10,Food & Drink,4
+973,OK,11,Games,10
+974,OK,12,LGBT,2
+975,OK,13,Movements & Politics,9
+976,OK,14,Health & Wellbeing,14
+977,OK,15,Hobbies & Crafts,2
+978,OK,16,Language & Ethnic Identity,1
+979,OK,18,Book Clubs,3
+980,OK,20,Movies & Film,3
+981,OK,21,Music,4
+982,OK,22,New Age & Spirituality,13
+983,OK,23,Outdoors & Adventure,9
+984,OK,24,Paranormal,2
+985,OK,25,Parents & Family,5
+986,OK,26,Pets & Animals,2
+987,OK,27,Photography,2
+988,OK,28,Religion & Beliefs,12
+989,OK,29,Sci-Fi & Fantasy,1
+990,OK,30,Singles,2
+991,OK,31,Socializing,11
+992,OK,32,Sports & Recreation,5
+993,OK,33,Support,2
+994,OK,34,Tech,28
+995,OK,36,Writing,4
+996,OR,1,Arts & Culture,7
+997,OR,2,Career & Business,24
+998,OR,3,Cars & Motorcycles,2
+999,OR,4,Community & Environment,4
+1000,OR,5,Dancing,1
+1001,OR,6,Education & Learning,9
+1002,OR,9,Fitness,6
+1003,OR,10,Food & Drink,2
+1004,OR,11,Games,4
+1005,OR,12,LGBT,5
+1006,OR,13,Movements & Politics,2
+1007,OR,14,Health & Wellbeing,12
+1008,OR,16,Language & Ethnic Identity,7
+1009,OR,17,Lifestyle,1
+1010,OR,18,Book Clubs,4
+1011,OR,20,Movies & Film,2
+1012,OR,21,Music,6
+1013,OR,22,New Age & Spirituality,11
+1014,OR,23,Outdoors & Adventure,13
+1015,OR,25,Parents & Family,1
+1016,OR,26,Pets & Animals,4
+1017,OR,27,Photography,3
+1018,OR,28,Religion & Beliefs,2
+1019,OR,29,Sci-Fi & Fantasy,1
+1020,OR,31,Socializing,6
+1021,OR,32,Sports & Recreation,4
+1022,OR,33,Support,5
+1023,OR,34,Tech,43
+1024,OR,36,Writing,9
+1025,OT,13,Movements & Politics,1
+1026,PA,1,Arts & Culture,4
+1027,PA,2,Career & Business,22
+1028,PA,3,Cars & Motorcycles,1
+1029,PA,4,Community & Environment,4
+1030,PA,5,Dancing,5
+1031,PA,6,Education & Learning,6
+1032,PA,9,Fitness,6
+1033,PA,10,Food & Drink,2
+1034,PA,11,Games,8
+1035,PA,12,LGBT,3
+1036,PA,13,Movements & Politics,7
+1037,PA,14,Health & Wellbeing,8
+1038,PA,15,Hobbies & Crafts,2
+1039,PA,16,Language & Ethnic Identity,10
+1040,PA,17,Lifestyle,1
+1041,PA,18,Book Clubs,4
+1042,PA,20,Movies & Film,3
+1043,PA,21,Music,2
+1044,PA,22,New Age & Spirituality,9
+1045,PA,23,Outdoors & Adventure,14
+1046,PA,25,Parents & Family,3
+1047,PA,26,Pets & Animals,2
+1048,PA,28,Religion & Beliefs,3
+1049,PA,29,Sci-Fi & Fantasy,2
+1050,PA,30,Singles,2
+1051,PA,31,Socializing,16
+1052,PA,32,Sports & Recreation,7
+1053,PA,33,Support,6
+1054,PA,34,Tech,34
+1055,PA,36,Writing,4
+1056,RI,1,Arts & Culture,3
+1057,RI,2,Career & Business,20
+1058,RI,3,Cars & Motorcycles,1
+1059,RI,4,Community & Environment,5
+1060,RI,5,Dancing,5
+1061,RI,6,Education & Learning,5
+1062,RI,9,Fitness,6
+1063,RI,10,Food & Drink,7
+1064,RI,11,Games,13
+1065,RI,12,LGBT,7
+1066,RI,13,Movements & Politics,2
+1067,RI,14,Health & Wellbeing,17
+1068,RI,15,Hobbies & Crafts,3
+1069,RI,16,Language & Ethnic Identity,8
+1070,RI,18,Book Clubs,2
+1071,RI,20,Movies & Film,3
+1072,RI,21,Music,4
+1073,RI,22,New Age & Spirituality,8
+1074,RI,23,Outdoors & Adventure,15
+1075,RI,25,Parents & Family,2
+1076,RI,26,Pets & Animals,1
+1077,RI,28,Religion & Beliefs,5
+1078,RI,29,Sci-Fi & Fantasy,1
+1079,RI,30,Singles,1
+1080,RI,31,Socializing,15
+1081,RI,32,Sports & Recreation,13
+1082,RI,33,Support,9
+1083,RI,34,Tech,15
+1084,RI,36,Writing,4
+1085,SC,1,Arts & Culture,2
+1086,SC,2,Career & Business,34
+1087,SC,3,Cars & Motorcycles,3
+1088,SC,4,Community & Environment,5
+1089,SC,5,Dancing,8
+1090,SC,6,Education & Learning,7
+1091,SC,9,Fitness,6
+1092,SC,10,Food & Drink,9
+1093,SC,11,Games,9
+1094,SC,12,LGBT,2
+1095,SC,13,Movements & Politics,4
+1096,SC,14,Health & Wellbeing,11
+1097,SC,15,Hobbies & Crafts,4
+1098,SC,16,Language & Ethnic Identity,5
+1099,SC,17,Lifestyle,2
+1100,SC,18,Book Clubs,3
+1101,SC,20,Movies & Film,1
+1102,SC,21,Music,3
+1103,SC,22,New Age & Spirituality,8
+1104,SC,23,Outdoors & Adventure,8
+1105,SC,25,Parents & Family,7
+1106,SC,26,Pets & Animals,2
+1107,SC,27,Photography,1
+1108,SC,28,Religion & Beliefs,4
+1109,SC,29,Sci-Fi & Fantasy,4
+1110,SC,30,Singles,1
+1111,SC,31,Socializing,8
+1112,SC,32,Sports & Recreation,7
+1113,SC,33,Support,6
+1114,SC,34,Tech,16
+1115,SD,15,Hobbies & Crafts,2
+1116,SD,22,New Age & Spirituality,1
+1117,SD,34,Tech,1
+1118,SD,36,Writing,1
+1119,TN,1,Arts & Culture,7
+1120,TN,2,Career & Business,36
+1121,TN,3,Cars & Motorcycles,4
+1122,TN,4,Community & Environment,8
+1123,TN,5,Dancing,5
+1124,TN,6,Education & Learning,9
+1125,TN,8,Fashion & Beauty,3
+1126,TN,9,Fitness,4
+1127,TN,10,Food & Drink,12
+1128,TN,11,Games,22
+1129,TN,12,LGBT,2
+1130,TN,13,Movements & Politics,8
+1131,TN,14,Health & Wellbeing,22
+1132,TN,15,Hobbies & Crafts,4
+1133,TN,16,Language & Ethnic Identity,9
+1134,TN,17,Lifestyle,2
+1135,TN,18,Book Clubs,3
+1136,TN,20,Movies & Film,5
+1137,TN,21,Music,8
+1138,TN,22,New Age & Spirituality,15
+1139,TN,23,Outdoors & Adventure,22
+1140,TN,25,Parents & Family,2
+1141,TN,26,Pets & Animals,4
+1142,TN,27,Photography,4
+1143,TN,28,Religion & Beliefs,18
+1144,TN,29,Sci-Fi & Fantasy,1
+1145,TN,30,Singles,1
+1146,TN,31,Socializing,18
+1147,TN,32,Sports & Recreation,13
+1148,TN,33,Support,5
+1149,TN,34,Tech,43
+1150,TN,36,Writing,8
+1151,TX,1,Arts & Culture,3
+1152,TX,2,Career & Business,16
+1153,TX,3,Cars & Motorcycles,1
+1154,TX,4,Community & Environment,2
+1155,TX,5,Dancing,3
+1156,TX,6,Education & Learning,2
+1157,TX,9,Fitness,2
+1158,TX,10,Food & Drink,6
+1159,TX,11,Games,6
+1160,TX,12,LGBT,3
+1161,TX,13,Movements & Politics,5
+1162,TX,14,Health & Wellbeing,10
+1163,TX,15,Hobbies & Crafts,1
+1164,TX,16,Language & Ethnic Identity,8
+1165,TX,18,Book Clubs,2
+1166,TX,20,Movies & Film,4
+1167,TX,21,Music,4
+1168,TX,22,New Age & Spirituality,6
+1169,TX,23,Outdoors & Adventure,9
+1170,TX,25,Parents & Family,4
+1171,TX,26,Pets & Animals,5
+1172,TX,27,Photography,2
+1173,TX,28,Religion & Beliefs,3
+1174,TX,29,Sci-Fi & Fantasy,1
+1175,TX,30,Singles,2
+1176,TX,31,Socializing,14
+1177,TX,32,Sports & Recreation,11
+1178,TX,33,Support,2
+1179,TX,34,Tech,63
+1180,UT,1,Arts & Culture,3
+1181,UT,2,Career & Business,62
+1182,UT,3,Cars & Motorcycles,2
+1183,UT,4,Community & Environment,12
+1184,UT,5,Dancing,6
+1185,UT,6,Education & Learning,4
+1186,UT,9,Fitness,3
+1187,UT,10,Food & Drink,3
+1188,UT,11,Games,10
+1189,UT,12,LGBT,5
+1190,UT,13,Movements & Politics,4
+1191,UT,14,Health & Wellbeing,39
+1192,UT,15,Hobbies & Crafts,3
+1193,UT,16,Language & Ethnic Identity,2
+1194,UT,17,Lifestyle,1
+1195,UT,18,Book Clubs,6
+1196,UT,20,Movies & Film,4
+1197,UT,21,Music,2
+1198,UT,22,New Age & Spirituality,7
+1199,UT,23,Outdoors & Adventure,18
+1200,UT,24,Paranormal,2
+1201,UT,25,Parents & Family,10
+1202,UT,26,Pets & Animals,2
+1203,UT,27,Photography,8
+1204,UT,28,Religion & Beliefs,15
+1205,UT,29,Sci-Fi & Fantasy,3
+1206,UT,30,Singles,2
+1207,UT,31,Socializing,21
+1208,UT,32,Sports & Recreation,7
+1209,UT,33,Support,5
+1210,UT,34,Tech,53
+1211,UT,36,Writing,5
+1212,VA,1,Arts & Culture,10
+1213,VA,2,Career & Business,19
+1214,VA,3,Cars & Motorcycles,3
+1215,VA,4,Community & Environment,9
+1216,VA,5,Dancing,8
+1217,VA,6,Education & Learning,5
+1218,VA,9,Fitness,3
+1219,VA,10,Food & Drink,11
+1220,VA,11,Games,16
+1221,VA,12,LGBT,7
+1222,VA,13,Movements & Politics,8
+1223,VA,14,Health & Wellbeing,20
+1224,VA,15,Hobbies & Crafts,4
+1225,VA,16,Language & Ethnic Identity,2
+1226,VA,17,Lifestyle,2
+1227,VA,18,Book Clubs,10
+1228,VA,20,Movies & Film,3
+1229,VA,21,Music,7
+1230,VA,22,New Age & Spirituality,19
+1231,VA,23,Outdoors & Adventure,30
+1232,VA,24,Paranormal,1
+1233,VA,25,Parents & Family,7
+1234,VA,27,Photography,9
+1235,VA,28,Religion & Beliefs,14
+1236,VA,29,Sci-Fi & Fantasy,4
+1237,VA,30,Singles,2
+1238,VA,31,Socializing,36
+1239,VA,32,Sports & Recreation,8
+1240,VA,33,Support,4
+1241,VA,34,Tech,27
+1242,VA,36,Writing,4
+1243,VT,1,Arts & Culture,1
+1244,VT,2,Career & Business,9
+1245,VT,4,Community & Environment,4
+1246,VT,5,Dancing,3
+1247,VT,6,Education & Learning,2
+1248,VT,9,Fitness,6
+1249,VT,10,Food & Drink,6
+1250,VT,11,Games,6
+1251,VT,12,LGBT,5
+1252,VT,13,Movements & Politics,2
+1253,VT,14,Health & Wellbeing,13
+1254,VT,16,Language & Ethnic Identity,2
+1255,VT,17,Lifestyle,2
+1256,VT,18,Book Clubs,5
+1257,VT,20,Movies & Film,1
+1258,VT,21,Music,4
+1259,VT,22,New Age & Spirituality,13
+1260,VT,23,Outdoors & Adventure,26
+1261,VT,25,Parents & Family,2
+1262,VT,26,Pets & Animals,4
+1263,VT,27,Photography,5
+1264,VT,28,Religion & Beliefs,4
+1265,VT,29,Sci-Fi & Fantasy,3
+1266,VT,30,Singles,2
+1267,VT,31,Socializing,6
+1268,VT,32,Sports & Recreation,8
+1269,VT,33,Support,3
+1270,VT,34,Tech,18
+1271,VT,36,Writing,7
+1272,WA,1,Arts & Culture,5
+1273,WA,2,Career & Business,46
+1274,WA,4,Community & Environment,2
+1275,WA,5,Dancing,4
+1276,WA,6,Education & Learning,6
+1277,WA,8,Fashion & Beauty,1
+1278,WA,9,Fitness,5
+1279,WA,10,Food & Drink,3
+1280,WA,11,Games,4
+1281,WA,13,Movements & Politics,1
+1282,WA,14,Health & Wellbeing,7
+1283,WA,15,Hobbies & Crafts,1
+1284,WA,16,Language & Ethnic Identity,9
+1285,WA,20,Movies & Film,1
+1286,WA,21,Music,5
+1287,WA,22,New Age & Spirituality,5
+1288,WA,23,Outdoors & Adventure,14
+1289,WA,25,Parents & Family,2
+1290,WA,26,Pets & Animals,1
+1291,WA,27,Photography,1
+1292,WA,28,Religion & Beliefs,5
+1293,WA,29,Sci-Fi & Fantasy,1
+1294,WA,30,Singles,3
+1295,WA,31,Socializing,12
+1296,WA,32,Sports & Recreation,2
+1297,WA,33,Support,4
+1298,WA,34,Tech,48
+1299,WA,36,Writing,2
+1300,WI,1,Arts & Culture,4
+1301,WI,2,Career & Business,33
+1302,WI,3,Cars & Motorcycles,1
+1303,WI,4,Community & Environment,5
+1304,WI,5,Dancing,5
+1305,WI,6,Education & Learning,12
+1306,WI,8,Fashion & Beauty,1
+1307,WI,9,Fitness,1
+1308,WI,10,Food & Drink,8
+1309,WI,11,Games,2
+1310,WI,12,LGBT,3
+1311,WI,13,Movements & Politics,3
+1312,WI,14,Health & Wellbeing,12
+1313,WI,15,Hobbies & Crafts,3
+1314,WI,16,Language & Ethnic Identity,5
+1315,WI,18,Book Clubs,4
+1316,WI,20,Movies & Film,2
+1317,WI,22,New Age & Spirituality,10
+1318,WI,23,Outdoors & Adventure,19
+1319,WI,25,Parents & Family,2
+1320,WI,26,Pets & Animals,3
+1321,WI,27,Photography,1
+1322,WI,28,Religion & Beliefs,5
+1323,WI,30,Singles,2
+1324,WI,31,Socializing,11
+1325,WI,32,Sports & Recreation,8
+1326,WI,33,Support,2
+1327,WI,34,Tech,44
+1328,WI,36,Writing,3
+1329,WV,1,Arts & Culture,1
+1330,WV,2,Career & Business,6
+1331,WV,5,Dancing,1
+1332,WV,6,Education & Learning,7
+1333,WV,9,Fitness,2
+1334,WV,10,Food & Drink,6
+1335,WV,11,Games,2
+1336,WV,12,LGBT,1
+1337,WV,14,Health & Wellbeing,5
+1338,WV,15,Hobbies & Crafts,1
+1339,WV,17,Lifestyle,1
+1340,WV,23,Outdoors & Adventure,4
+1341,WV,28,Religion & Beliefs,1
+1342,WV,31,Socializing,1
+1343,WV,32,Sports & Recreation,1
+1344,WV,34,Tech,8
+1345,WV,36,Writing,2
+1346,WY,2,Career & Business,9
+1347,WY,5,Dancing,2
+1348,WY,11,Games,2
+1349,WY,22,New Age & Spirituality,2
+1350,WY,23,Outdoors & Adventure,7
+1351,WY,27,Photography,2
+1352,WY,31,Socializing,2
+1353,WY,34,Tech,7
