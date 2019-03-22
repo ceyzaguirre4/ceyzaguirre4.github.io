@@ -122,7 +122,7 @@ cellGrid = svg
   .attr("class", d => "cell" + " x" + d.x + " y" + d.y);
 // .attr("transform", d => "translate(" + d.x + "," + d.y + ")")
 
-d3.csv("./gridmapassets/cats_perstate.csv", stateData => {
+d3.csv("/gridmapassets/cats_perstate.csv", stateData => {
   var stateOrderedData = {};
   stateData.forEach(row => {
     if (stateOrderedData[row.state]) {
@@ -132,7 +132,7 @@ d3.csv("./gridmapassets/cats_perstate.csv", stateData => {
     }
   });
 
-  d3.csv("./gridmapassets/grid.csv", data => {
+  d3.csv("/gridmapassets/grid.csv", data => {
     //console.log(data)
 
     // labelGrid overlays label on grid
