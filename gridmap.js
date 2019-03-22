@@ -382,7 +382,7 @@ function clicked(selected) {
 
   d3.selectAll(`.label.${selected.code}`)
     .style("font-size", "10px")
-    .attr("y", d => d.y - 5 * subCellSize * shrickLevelHeight - 10);
+    .attr("y", d => d.y - 5 * subCellSize * shrickLevelHeight);
 
   if (previousCentered) {
     d3.select(`.state.${previousCentered.code}`)
@@ -498,7 +498,7 @@ function clicked(selected) {
               .style("stroke", "none")
               .attr(
                 "transform",
-                `translate(${ x - (50 * subCellSize * shrickLevelWidth) + pos },${y -
+                `translate(${ x - (50 * subCellSize * shrickLevelWidth) + pos  },${y -
                   (cellSize / 2 + (subCellSize * shrickLevelHeight) / 2 + 1) +
                   i * 2 * subCellSize * shrickLevelHeight})`
               )
