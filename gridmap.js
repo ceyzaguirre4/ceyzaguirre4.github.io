@@ -498,7 +498,7 @@ function clicked(selected) {
               .style("stroke", "none")
               .attr(
                 "transform",
-                `translate(${x - cellSize / 2 + pos},${y -
+                `translate(${ x - (50 * subCellSize * shrickLevelWidth) + pos },${y -
                   (cellSize / 2 + (subCellSize * shrickLevelHeight) / 2 + 1) +
                   i * 2 * subCellSize * shrickLevelHeight})`
               )
