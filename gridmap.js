@@ -513,7 +513,7 @@ function clicked(selected) {
         });
         var x2 = d3
           .scaleLinear()
-          .range([0, cellSize])
+          .range([0, 100*(subCellSize * shrickLevelWidth)])
           .domain([0, 100]);
         var xAxis = d3
           .axisBottom()
@@ -531,7 +531,7 @@ function clicked(selected) {
               5 * 2 * subCellSize * shrickLevelHeight})`
           )
           .select("path")
-          .attr("d", `M0.5.5H${cellSize}`);
+          .attr("d", `M0.5.5H${100*(subCellSize * shrickLevelWidth)}`);
         d3.select(`.state.${selected.code}`)
           .selectAll(".tick line")
           .style("stroke-width", 0.375)
