@@ -1,6 +1,7 @@
 ---
 layout: post
 mathjax: true
+comments: true
 title: PyTorch (1.0), CUDA & cuDNN on MacOS
 ---
 
