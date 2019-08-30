@@ -113,11 +113,11 @@ assert torch.randn(20).cuda().is_cuda
 
 
 
-cuDNN is needed for some provided models such as LSTMs. The following wont produce error messages if cuDNN is installed:
+The following wont produce error messages if cuDNN is installed:
 
 ~~~python
-import torch.nn as nn
-lstm = nn.LSTM(10, 20).cuda()
+import torch
+assert torch.backends.cudnn.enabled
 ~~~
 
 ___
