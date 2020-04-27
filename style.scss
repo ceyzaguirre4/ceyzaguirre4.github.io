@@ -287,3 +287,20 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+
+
+// CUSTOM CSS
+
+p, em, b {
+  text-align: justify;
+}
+
+img + em {
+  display: block;
+  margin: 8px 20px;
+  font-size: 0.8em
+} //image captions
+
+// p:has(> img) {}
