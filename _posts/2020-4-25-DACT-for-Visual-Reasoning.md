@@ -5,10 +5,12 @@ comments: true
 title: Differentiable Adaptive Computation Time for Visual Reasoning (CVPR 2020)
 ---
 
-We've created DACT [\[{% increment ref_count %}\]](http://arxiv.org/abs/2004.12770), a new algorithm for achieving adaptive computation time that, unlike existing approaches, is fully differentiable and can work in conjunction with complex models.
-DACT replaces hard limits and piecewise functions with inductive biases to allow the network to choose during evaluation the amount of computation needed for the current input.
-The resulting models learn the tradeoff between precision and complexity and actively adapt their architectures accordingly.
-Our paper shows that, when applied to the widely known MAC architecture and the visual reasoning task, DACT can improve interpretability, make the model more robust to relevant hyperparameter changes, all while increasing the performance to computation ratio.
+<div style='text-align:center'><em>(if answer is ready: stop wasting computation)</em></div>
+
+On tasks where the complexity needed to answer varies it makes intuitive sense that model complexity should vary accordingly.
+The ability to adaptively allocate more resources to difficult tasks is one that all humans possess and is evident in the increased requirements needed for complex mathematics compared to simple everyday tasks.
+This post introduces DACT [\[{% increment ref_count %}\]](http://arxiv.org/abs/2004.12770), a new algorithm for achieving adaptive computation time that, unlike existing approaches, is fully differentiable.
+We put it to the test on Visual Reasoning datasets and find that our models learn to actively adapt their architectures according, balancing high accuracy with as-little-as-possible computation.
 
 {% assign ref_count = 1 %}
 
@@ -25,7 +27,7 @@ Our paper shows that, when applied to the widely known MAC architecture and the 
 Visual Question Answering (VQA) [\[{% increment ref_count %}\]](https://visualqa.org) is a task where, for a given input image, question pair, we expect the model to return an answer.
 The difficulty of the task lies in the openness for both the question and image: because any image or plain-text question are valid expecting the model to output convincing answers can be seen as a more general Turing-test.
 These datasets pose challenging natural language questions about images whose solution requires the use of perceptual abilities, such as recognizing objects or attributes, identifying spatial relations, or implementing high-level capabilities like counting.
-For example, in the images above we see examples of two very similar (counting) questions for images from the Visual Genome dataset [\[{% increment ref_count %}\]](https://visualgenome.org) that necessitate the understanding of the relation holding and a general purpose counting algorithm.
+For example, in the images above we see examples of two very similar (counting) questions for images from the Visual Genome dataset [\[{% increment ref_count %}\]](https://visualgenome.org) that necessitate a broad understanding of the relation holding and a general purpose counting algorithm.
 
 <!--
 ![](/images/dact/clevr_eg.png)
@@ -35,11 +37,11 @@ For example, in the images above we see examples of two very similar (counting) 
 {% include table.html img1="/images/dact/clevr_eg.png" description1="Examples of questions in the CLEVR dataset that show a significant variation in the number of reasoning steps that are needed to answer them correctly." %}
 
 
-In open tasks such as this we often find instances that entail different levels of complexity.
-However, most DL based models have fixed processing pipelines whose computation is independent of the input/output relation.
-We argue that dealing with this openness is paramount for more general intelligence and propose Adaptive Computation Time algorithms such as ACT [\[{% increment ref_count %}\]](https://arxiv.org/abs/1603.08983) as a possible solution.
-The figure above shows two examples from the CLEVR dataset [\[{% increment ref_count %}\]](http://cs.stanford.edu/people/jcjohns/clevr/) where the variability in question complexity is exemplified.
-Specifically, while the first question involves just the identification of a specific attribute from a specific object, the second question requires the identification and comparative analysis of several attributes from several objects.
+In open tasks such as this we find that instances entail diverse levels of complexity as both questions and images can be arbitrarily simple or difficult.
+Two examples from the CLEVR dataset [\[{% increment ref_count %}\]](http://cs.stanford.edu/people/jcjohns/clevr/) are shown above.
+Even in the very restricted subset of all possible images and questions included in this dataset (vocabulary of 28 words, generated images of the same objects) we find significant variation in complexity.
+Specifically, while the question of the first example involves just the identification of a specific attribute from a specific object, the second question requires the identification and comparative analysis of several attributes from several objects.
+We argue that dealing with this openness is paramount for more general intelligence and propose Adaptive Computation Time algorithms such as ACT [\[{% increment ref_count %}\]](https://arxiv.org/abs/1603.08983) as possible solutions.
 
 ---
 
@@ -54,25 +56,32 @@ Here we distinguish between two kinds:
 - those in which a controller selects the appropriate module (eg. IEP [\[{% increment ref_count %}\]](https://arxiv.org/abs/1705.03633) show in figure).
 - those where a single module is used repeatedly for a fixed number of times (eg. MAC [\[{% increment ref_count %}\]](https://arxiv.org/abs/1803.03067) shown in figure).
 
-In the case of specialized modules, the generation of the sequences required costly supervision or elaborate reinforcement learning training schemes.
-In the case of a general purpose module, the selection of the module to execute is trivial (only one), however, the number of steps to apply this module cannot be determined for each sample, instead its value is fixed as a hyper-parameter.
-In our work, we build upon one of these networks by replacing this fixed hyper-parameter by an adaptive approach to select the horizon of the computational pipeline.
+Only the case of specialized modules is adaptive, but the generation of the sequences requires costly supervision or elaborate reinforcement learning training schemes.
+
+The second case (general purpose modules) always executes the same module a fixed number of times, so no module selection training is needed.
+However, this approach is not adaptive as the processing pipeline is always the same.
+In our work, we build upon one of these networks by using DACT to adaptively select the horizon of the computational pipeline (instead of having it as a fixed hyper-parameter).
 
 ### 2. ACT
 
-An algorithm for adaptive computation already existed, ACT.
-It works by forcing that the weights used to combine each step’s output into the final answer sum exactly one.
+An algorithm for adaptive computation in neural networks already existed: ACT.
+I've already written a detailed explanation of how and why it works in a [previous post](/ACT), but the TLDR is that it works by forcing that the weights used to combine each step’s output into the final answer sum exactly one.
 To achieve this a non-differentiable piecewise function is used, namely: if the sum of the weights is more than one, then change the last weight so that the sum is exactly one.
-In contrast, our approach maintains the full gradient by only halting during evaluation (and not during training).
-The weights used to combine all the step output’s are described by a monotonically decreasing probability distribution that implicitly includes future steps yet to be computed.
-The result is a fully differentiable model for training with gradient descent whose computation can be reduced during inference by mathematically determining when the interruption cannot change the output.
-
+It has seen some success reducing computation in computer vision and natural language processing problems.
+However, we found that its theoretical shortcomings limited its usefulness for Visual Reasoning tasks (see Results), so we proposed a novel fully-differentiable algorithm.
 
 ---
 
 ## How it works
 
 {% include table.html img1="/images/dact/diagram.png" description1="The final answer Y is built up from the sub-answers from each module. The maximum contribution of any one of these steps is limited by all earlier ones, and any step can choose to limit contribution of subsequent ones." %}
+
+DACT was formulated as a differentiable alternative to ACT.
+In other words, it was designed to provide a means by which a model can halt computation without adding noise to the gradients.
+
+<!-- Our approach maintains the full gradient by **only halting during evaluation** (and not during training).
+The weights used to combine all the step output’s are described by a monotonically decreasing probability distribution that implicitly includes future steps yet to be computed.
+The result is a fully differentiable model for training with gradient descent whose computation can be reduced during inference by mathematically determining when the interruption cannot change the output. -->
 
 Our formulation can be applied to any model or ensemble that can be decomposed as a series of modules or submodels $m_n$, $n ∈ [1,...,N]$ that can be ordered by complexity.
 For example, recurrent networks are composed by iterative steps, CNNs by residual blocks, and ensembles by smaller models.
@@ -117,7 +126,6 @@ for n in [1 ... N]:
     # run another step
     answer = run_module()
 
-    # halt if answer cant change
     if not answer_can_change():
         break
 ~~~
@@ -141,22 +149,26 @@ def answer_can_change():
 ~~~
 
 The top answer is most likely to change if all $d$ remaining steps assign probability $0$ to $c^\*$ and $1$ to $c^{ru}$.
-This scenario is the worst case from the perspective of the stability of the answer as it leads to the minimum value that the class $c^\*$ can take in $Y$; along with the maximum value for $c^{ru}$.
+This scenario is the worst case from the perspective of the stability of the answer as it leads to the minimum value that the probability of class $c^\*$ can take in $Y$; along with the maximum value for $c^{ru}$.
 
-Then, after expanding the inductive definition of $a_n$ and replacing the worst-case probabilities we derive:
-
-$$
-  \min(\mathit{c^*}, N) \geq P(c^*, n)(1-p_n)^d
-$$
+Then, after expanding the inductive definition of $a_n$ and replacing the worst-case probabilities we derive a lower bound for the probability of the class $c^\*$ in $Y$:
 
 $$
-  \max(\mathit{c^{ru}}, N) \leq P(c^{ru}, n) + p_n d
+  \Pr(c^*, N) \geq \Pr(c^*, n)(1-p_n)^d
 $$
 
+And an upper bound to the probability of the runner-up class $c^{ru}$:
+
+$$
+  \Pr(c^{ru}, N) \leq \Pr(c^{ru}, n) + p_n d
+$$
+
+
+Therefore during inference we can safely cut computation once we identify a step $n$ such that we know for sure that the top classes in $a_n$ and $Y$ are the same.
 Mathematically, this means the *halting condition* is achieved when:
 
 $$
-  P(c^*, n)(1-p_n)^d \geq P(c^{ru}, n) + p_n d
+  \Pr(c^*, n)(1-p_n)^d \geq \Pr(c^{ru}, n) + p_n d
 $$
 
 *(The math and some additional proofs are included in the paper.)*
@@ -171,9 +183,9 @@ $$
 
 ## Results: CLEVR
 
-### 1. Accuracy - Complexity Tradeoff
+### 1. Better accuracy in fewer steps
 
-{% include table.html img1="/images/dact/mac_steps_acc.png" description1="Scatterplot of computation (in steps) vs. precision." img2="/images/dact/convergence.png" description2="Learning curves for different regularization values."%}
+{% include table.html img1="/images/dact/mac_steps_acc.png" description1="Scatterplot of computation (in steps) vs. precision. DACT-MACs shown in color; MACs as diamonds; ACT-MACs as crosses." img2="/images/dact/convergence.png" description2="Learning curves for different regularization ( 𝜏 ponder cost) values show mean and variance of three runs."%}
 
 As the scatterplot above shows, DACT enabled MACs (in color) consistently outperform vanilla MACs (shown as diamonds) when both use comparable average numbers of steps.
 ACT on the other hand only performs as well or bellow as comparable MACs.
@@ -181,9 +193,9 @@ Additionally, the figure shows that DACT responds predictably to changes in the 
 This again contrasts with ACT which proved to be insensitive to the *ponder cost*.
 For instance, ACT without ponder cost ($\tau$ = 0.0) performs 3.2 steps on average and obtains an accuracy of 95.8%.
 
-### 2. Complexity Adaptivity
+### 2. Increased adaptability to changes in question difficulty
 
-{% include table.html img1="/images/dact/corr_compare.png" description1="How many steps are used by adaptive MACs for each question family in the CLEVR dataset." %}
+{% include table.html img1="/images/dact/corr_compare.png" description1="How many steps are used by adaptive MACs for each question family in the CLEVR dataset. ACT-MACs in a); DACT-MACs shown in b) and c)." %}
 
 The motivation behind using adaptive algorithms for this task is to use less computation for the more straightforward questions while still being able to use more computation for difficult ones.
 In the figure above **a)** shows the existing algorithm (ACT) failing to learn how to answer the most straightforward questions in less than three steps, or the hardest in more than five.
@@ -194,7 +206,7 @@ The figure shows questions clustered by family type which translates to groups t
 The fact that DACT shows a remarkable correlation between computation and question family despite not including any type of supervision about these factors evinces the learning of meaningful patterns that correlate with question complexity.
 The full *heatmap* that shows an example for each question family can be found [here](/images/dact/corrs_full.png).
 
-### 3. Interpretability
+### 3. Interpretability gains
 
 {% include table.html img1="/images/dact/AttsComp.png" description1="Visual and linguistic attention maps for both regular MAC (left) and DACT-MAC (right)." %}
 
@@ -245,7 +257,7 @@ The full *heatmap* that shows the question types can be found [here](/images/dac
 ## Cite
 
 ~~~bibtex
-@misc{eyzaguirre2020differentiable,
+  @misc{eyzaguirre2020differentiable,
     title={Differentiable Adaptive Computation Time for Visual Reasoning},
     author={Cristobal Eyzaguirre and Alvaro Soto},
     year={2020},
