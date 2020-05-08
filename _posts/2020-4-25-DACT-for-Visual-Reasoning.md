@@ -10,7 +10,7 @@ title: Differentiable Adaptive Computation Time for Visual Reasoning (CVPR 2020)
 On tasks where the complexity needed to answer varies it makes intuitive sense that model complexity should vary accordingly.
 The ability to adaptively allocate more resources to difficult tasks is one that all humans possess and is evident in the increased requirements needed for complex mathematics compared to simple everyday tasks.
 This post introduces DACT [\[{% increment ref_count %}\]](http://arxiv.org/abs/2004.12770), a new algorithm for achieving adaptive computation time that, unlike existing approaches, is fully differentiable.
-We put it to the test on Visual Reasoning datasets and find that our models learn to actively adapt their architectures according, balancing high accuracy with as-little-as-possible computation.
+We put it to the test on Visual Reasoning datasets and find that our models learns to actively adapt their architectures according, balancing high accuracy with as-little-as-possible computation.
 
 {% assign ref_count = 1 %}
 
@@ -53,8 +53,8 @@ We argue that dealing with this openness is paramount for more general intellige
 
 We consider modular networks those where modules are combined from a collection processing modules.
 Here we distinguish between two kinds:
-- those in which a controller selects the appropriate module (eg. IEP [\[{% increment ref_count %}\]](https://arxiv.org/abs/1705.03633) show in figure).
-- those where a single module is used repeatedly for a fixed number of times (eg. MAC [\[{% increment ref_count %}\]](https://arxiv.org/abs/1803.03067) shown in figure).
+- those in which a controller selects the appropriate specialized module (eg. IEP [\[{% increment ref_count %}\]](https://arxiv.org/abs/1705.03633) show in figure).
+- those where a single general purpose module is used repeatedly for a fixed number of times (eg. MAC [\[{% increment ref_count %}\]](https://arxiv.org/abs/1803.03067) shown in figure).
 
 Only the case of specialized modules is adaptive, but the generation of the sequences requires costly supervision or elaborate reinforcement learning training schemes.
 
@@ -251,6 +251,16 @@ However, by adding DACT to a pre-trained 4-step MAC and then fine-tuning we find
 Additionally, we find that DACT-MACs adapt the 4-step algorithm reducing computation on some question types, and that the number of steps again correlate strongly with *question types* as can be seen in the *heatmaps* above.
 The same figures also show how the architecture adapts to changes in the *ponder cost*, as this penalty decreases DACT adaptively allocates more resources to more complex questions.
 The full *heatmap* that shows the question types can be found [here](/images/dact/corrs_full_gqa.png).
+
+---
+
+## Future Work Ideas (!)
+
+A few lines for future work:
+- using adaptive computation to generate curriculums for curriculum learning.
+- using different *halting conditions* with DACT.
+- taking advantage of DACT's differentiability to use non-linear functions of computation (eg. exponential ponder penalties).
+- applying DACT to other models and datasets. I'm particularly interested in using it on neural state machines [\[{% increment ref_count %}\]](https://arxiv.org/abs/1907.03950) for real adaptive behavior on GQA.
 
 ---
 
