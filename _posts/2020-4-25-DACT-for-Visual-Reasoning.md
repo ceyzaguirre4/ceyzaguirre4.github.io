@@ -14,7 +14,7 @@ We put it to the test on Visual Reasoning datasets and find that our models lear
 
 {% assign ref_count = 1 %}
 
-[LINK TO PREPRINT \[0\]](http://arxiv.org/abs/2004.12770)
+[LINK TO ARXIV \[0\]](http://arxiv.org/abs/2004.12770)
 
 [LINK TO CODE](https://github.com/ceyzaguirre4/DACT-MAC)
 
@@ -267,12 +267,11 @@ A few lines for future work:
 ## Cite
 
 ~~~bibtex
-  @misc{eyzaguirre2020differentiable,
-    title={Differentiable Adaptive Computation Time for Visual Reasoning},
-    author={Cristobal Eyzaguirre and Alvaro Soto},
-    year={2020},
-    eprint={2004.12770},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI}
+@InProceedings{Eyzaguirre_2020_CVPR,
+  author = {Eyzaguirre, Cristobal and Soto, Alvaro},
+  title = {Differentiable Adaptive Computation Time for Visual Reasoning},
+  booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2020}
 }
 ~~~
