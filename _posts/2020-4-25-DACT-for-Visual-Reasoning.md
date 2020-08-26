@@ -267,11 +267,11 @@ A few lines for future work:
 ## Cite
 
 ~~~bibtex
-@InProceedings{Eyzaguirre_2020_CVPR,
-  author = {Eyzaguirre, Cristobal and Soto, Alvaro},
-  title = {Differentiable Adaptive Computation Time for Visual Reasoning},
-  booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  month = {June},
-  year = {2020}
+@article{Eyzaguirre2020DifferentiableAC,
+  title={Differentiable Adaptive Computation Time for Visual Reasoning},
+  author={Cristobal Eyzaguirre and A. Soto},
+  journal={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2020},
+  pages={12814-12822}
 }
 ~~~
