@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: Modelación Linear Continua
+categories: [Classnotes]
 ---
 
 Esta guía la cree para mi mismo y el resto de los humanos hispano-hablantes luego de no encontrar una buena fuente para estudiar la materia del curso ICS1113 Optimización (curso de la Pontificia Universidad Católica de Chile).

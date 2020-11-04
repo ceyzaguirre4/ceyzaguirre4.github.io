@@ -3,64 +3,53 @@ layout: default
 ---
 {% include mathjax.html %}
 
-<article class="post" style="margin:auto;max-width:740px">
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
+<div class="wrapper wrapper-content  animated fadeInRight article" style="padding: 20px 10px 0px;">
+  <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+          <div class="ibox">
+              <div class="ibox-content" style="padding: 40px 40px 0px;">
+                  <div class="pull-right">
+                    {% for category in page.categories %}
+                        <a class="btn btn-white btn-xs" href="{{ category | downcase | prepend: '/' | prepend: site.baseurl }}">{{ category }}</a>
+                      {% endfor %}
+                  </div>
+                  <div class="text-center article-title">
+                  <span class="text-muted"><i class="fa fa-clock-o"></i> {{ page.date | date: "%-d %b %Y" }}</span>
+                      <h1>
+                          {{ page.title }}
+                      </h1>
+                  </div>
+                    {{ content }}
+              </div>
+          </div>
+      </div>
   </div>
+</div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+<div id="vis"></div>
+<script src='https://d3js.org/d3.v4.min.js' charset='utf-8'></script>
+<script src="/gridmap.js"></script>
+
+<div class="col-lg-10 col-lg-offset-1">
+  <div class="ibox">
+        <!-- donate -->
+        <!-- {% if site.donation %}
+        {% include donate.html %}
+        {% endif %}
+        <br> -->
+        <!-- share -->
+        {% include share.html %}
+        <br>
+        <!-- comment -->
+        {% include comments.html %}
   </div>
+</div>
 
-</article>
 
 <style>
-  /* overwrite mains max width so vis can use full width */
-  #main {
-    max-width:100%;
-  }
-
-  #disqus_wrapper {
-    margin: auto;
-    max-width:740px;
-  }
-
   svg {
     margin:auto;
     display: block;
   }
 
 </style>
-
-<div id="vis"></div>
-<script src='https://d3js.org/d3.v4.min.js' charset='utf-8'></script>
-<script src="/gridmap.js"></script>
-
-<br>
-
-<div id=disqus_wrapper>
-<div id="disqus_thread"></div>
-<script>
-  /**
-   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-   */
-  /*
-  var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  */
-  (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
-      var d = document, s = d.createElement('script');
-      
-      s.src = 'https://https-ceyzaguirre4-github-io.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
-      
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</div>

@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: Modelación Linear Discreta
+categories: [Classnotes]
 ---
 
 Parte dos de la guia para estudiar la materia del curso ICS1113 Optimización (curso de la Pontificia Universidad Católica de Chile). 

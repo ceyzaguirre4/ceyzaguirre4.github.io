@@ -3,9 +3,17 @@ layout: post
 mathjax: true
 comments: true
 title: Differentiable Adaptive Computation Time for Visual Reasoning (CVPR 2020)
+# date:   2017-01-31
+# keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
+categories: [Ai]
+# tags: [html,python,recsys]
+# icon: icon-html
 ---
 
 <div style='text-align:center'><em>(if answer is ready: stop wasting computation)</em></div>
+<br>
+<br>
+<br>
 
 On tasks where the complexity needed to answer varies it makes intuitive sense that model complexity should vary accordingly.
 The ability to adaptively allocate more resources to difficult tasks is one that all humans possess and is evident in the increased requirements needed for complex mathematics compared to simple everyday tasks.
@@ -275,3 +283,11 @@ A few lines for future work:
   pages={12814-12822}
 }
 ~~~
+
+
+<style>
+  /* overwrite mains max width so vis can use full width */
+  img {
+    max-width:100%;
+  }
+</style>

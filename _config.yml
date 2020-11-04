@@ -1,86 +1,73 @@
-#
-# This file contains configuration flags to customize your site
-#
+# Welcome to Jekyll!
 
-# Name of your site (displayed in the header)
-name: Cristobal Eyzaguirre
+# Website settings
+title: Cristobal Eyzaguirre
+description: Cristobals's blog,use Jekyll and github pages.
+keywords: ""
+baseurl: ""  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://ceyzaguirre4.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: static/assets/images  # url should be '/homepage/static/assets/img/blog' as before
 
-# Short bio or description (displayed in the header)
-description: Developer / Data Scientist from Chile
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: Cristobal Eyzaguirre  # Be used at blog posts' author.
+  first_name: Cristobal  # Be used at index page about me section.
+  last_name: Eyzaguirre  # Be used at index page about me section.
+  avatar: https://avatars3.githubusercontent.com/u/20346844?s=460&v=4  # upload your avatar at directory and edit it.
+  github_username: ceyzaguirre4  # Leave blank if you don't have now
+  linkedin_id: ceyzaguirre4 # Leave blank if you don't have now
+  facebook_username: cristobal.eyzaguirre  # Leave blank if you don't have now
+  # twitter_username:   # Leave blank if you don't have now
+  email: ceyzaguirre4@uc.cl  # Leave blank if you don't have now
+  cv: /static/assets/pdf/cv.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-python
+    - name: icon-cplusplus
+  skill_icon2:
+    - name: icon-ubuntu
+    - name: icon-javascript
+  desc: "M.Sc.Eng. Student at Pontificia Universidad Católica de Chile.
+I've been researching for this institution's artificial intelligence laboratory for over 2 years, with emphasis in Machine Reasoning, Meta Learning and Adaptive Computation Time models.
+Teaching assistant for the courses Artificial intelligence, Deep Learning, and the Capstone for Software Engineering majors, as well as teacher in the same institution's AI diploma course.
+Passionate about the outdoors (ultra-running, skiing, hiking, etc!) and scientific innovation."  # Describe yourself.
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars3.githubusercontent.com/u/20346844?s=460&v=4
+# comment
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  name: https-ceyzaguirre4-github-io
 
-#
-# Flags below are optional
-#
+# analytics
+## google analytics
+# ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+#   id: UA-93473370-3
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: ceyzaguirre4@uc.cl
-  facebook: cristobal.eyzaguirre
-  flickr:
-  github: ceyzaguirre4
-  instagram:
-  linkedin: ceyzaguirre4
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter:
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+## google optimize
+# go:
+  # id:
 
+## growingIO
+# gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
+## donation
+# donation: on  # type 'on'/'off' to choice display donation button at post page or not
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+## carousels
+index_carousel: on  # index page carousel switch
+blog_carousel: on  # blog page carousel switch
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
+# scss
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: compressed
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+# Build settings
+encoding: utf-8
 
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+

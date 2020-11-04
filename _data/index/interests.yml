@@ -1,0 +1,8 @@
+# skills section data
+
+label: Interest
+id : cs
+# aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
+# percentage: 100, 35, 65, 80, 70, 90, 50
+aspects: Deep Learning, Machine Learning, Visual Reasoning, Visual Captioning, Action Recognition, Meta Learning, Reinforcement Learning, Natural Language Processing
+percentage: 100, 70, 90, 60, 50, 70, 60, 70

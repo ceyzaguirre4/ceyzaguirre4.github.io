@@ -1,0 +1,55 @@
+# careers section data
+- name:
+    detail: Google Research
+  desc:
+    detail: Ongoing!
+  date:
+    detail: Oct. 2020 - Present
+  job:
+    detail: Research Intern
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Zippedi
+  desc:
+    detail: Research and implementation of computer vision algorithms for the automatic recognition of products in store shelves. <br>
+            Models run locally on embedded devices, or on cloud GPU instances.
+  date:
+    detail: Winter 2019
+  job:
+    detail: Research Intern
+  icon: fa-plus-square
+
+- name:
+    detail: Pontificia Universidad Católica de Chile
+  desc:
+    detail: Work on Adaptive Computation Time on recurrent and non-recurrent models (and ensembles).
+  date:
+    detail: July 2019 - Present
+  job:
+    detail: MsC. Engineering
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: IALab
+  desc:
+    detail: Worked on DL models pertaining to Visual Reasoning, Adaptive Computation Time, Natural Language Processing and Action Recognition.
+  date:
+    detail: July 2017 - Present
+  job:
+    detail: Student Researcher
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Pontificia Universidad Católica de Chile
+  desc:
+    detail: Majored in Software Engineering (minor Data Science).<br>
+            Grades in 95th percentile.
+  date:
+    detail: Jan. 2015 Dec. 2019
+  job:
+    detail: BS. Engineering
+  icon: fa-plus-square
