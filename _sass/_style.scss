@@ -2504,12 +2504,6 @@ body {
     padding: 10px;
     height: auto;
   }
-  .header-back {
-    height: 470px;
-    width: 100%;
-    background-position: 50% 0;
-    background-repeat:  no-repeat;
-  }
   .carousel {
     height: 470px;
   }
@@ -2732,6 +2726,19 @@ body {
       font-size: 14px;
       line-height: 1.4;
     }
+    .header-back {
+      /* Full width unless on mobile */
+      width: 100%;
+      height: 100%;
+
+      /* Create the parallax scrolling effect on PC*/
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      /* Reveal */
+      background-position: 50% 0;
+    }
   }
 }
 
@@ -2743,6 +2750,19 @@ body {
 
 @media (max-width: 768px) {
   .landing-page {
+    .header-back {
+      // /* Full width unless on mobile */
+      min-height: 100%;
+
+      background-repeat: no-repeat;
+      background-size:cover;
+
+      // /* Reveal */
+      background-position: 50% 0;
+      // background-position-x: 50%;
+      // background-position-y: 0%;
+      // background-position: center top;
+    }
     .carousel-caption {
       left: 5%;
       top: 80px;
