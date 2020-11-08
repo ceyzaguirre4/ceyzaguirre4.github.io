@@ -24,11 +24,11 @@
 - name:
     detail: Pontificia Universidad Católica de Chile
   desc:
-    detail: Work on Adaptive Computation Time on recurrent and non-recurrent models (and ensembles).
+    detail: Worked on Adaptive Computation Time on recurrent and non-recurrent models (and ensembles).
   date:
     detail: July 2019 - Present
   job:
-    detail: MsC. Engineering
+    detail: M.Sc. Engineering
   icon: fa-plus-square
   present: true
 
@@ -47,9 +47,9 @@
     detail: Pontificia Universidad Católica de Chile
   desc:
     detail: Majored in Software Engineering (minor Data Science).<br>
-            Grades in 95th percentile.
+            Grades in 96th percentile.
   date:
     detail: Jan. 2015 Dec. 2019
   job:
-    detail: BS. Engineering
+    detail: B.Sc. Engineering
   icon: fa-plus-square

@@ -2,8 +2,9 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
+
+- src: landing/header_two.jpg
+  title: Monasterio del Escorial 2020.
+
 - src: landing/header_one.jpg
   title: Cerro Provincia, 9000ft.
-
-# - src: landing/header_one.jpg
-#   title: second banner image
