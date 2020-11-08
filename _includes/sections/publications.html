@@ -43,7 +43,7 @@ function toggle_visibility(id) {
                             <div id="{{ publication.id }}" style="display:none; font-size:small;">
                                 <pre>
                                     <code>
-                                        {{ publication.bibtex }}
+                                        {{ publication.bibtex  | markdownify }}
                                     </code>
                                 </pre>
                             </div>

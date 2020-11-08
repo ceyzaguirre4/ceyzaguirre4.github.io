@@ -7,13 +7,12 @@
   authors: <b>Cristobal Eyzaguirre</b> and A. Soto
   conference: Computer Vision and Pattern Recognition (CVPR)
   year: 2020
-  bibtex: "@article{Eyzaguirre2020DifferentiableAC, 
-    title={Differentiable Adaptive Computation Time for Visual Reasoning}, 
-    author={Cristobal Eyzaguirre and A. Soto}, 
-    journal={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
-    year={2020}, 
-    pages={12814-12822} 
-  }"
+  bibtex: "@article{Eyzaguirre2020DifferentiableAC, <br>
+    title={Differentiable Adaptive Computation Time for Visual Reasoning}, <br>
+    author={Cristobal Eyzaguirre and A. Soto}, <br>
+    journal={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, <br>
+    year={2020}, <br>
+    pages={12814-12822}}"
   arxiv: http://arxiv.org/abs/2004.12770
   github: https://github.com/ceyzaguirre4/DACT-MAC
   webpage: /ai/2020/04/25/DACT-for-Visual-Reasoning.html
