@@ -2,13 +2,13 @@
 - name:
     detail: Google Research
   desc:
-    detail: Ongoing!
+    detail: Algorithms for video understanding.
   date:
-    detail: Oct. 2020 - Present
+    detail: Oct. 2020 - Jan. 2021
   job:
     detail: Research Intern
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: Zippedi
@@ -49,7 +49,7 @@
     detail: Majored in Software Engineering (minor Data Science).<br>
             Grades in 96th percentile.
   date:
-    detail: Jan. 2015 Dec. 2019
+    detail: Jan. 2015 - Dec. 2019
   job:
     detail: B.Sc. Engineering
   icon: fa-plus-square
