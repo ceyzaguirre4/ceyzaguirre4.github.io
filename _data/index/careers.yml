@@ -1,5 +1,16 @@
 # careers section data
 - name:
+    detail: Stanford University
+  desc:
+    detail: Incoming Ph.D. student
+  date:
+    detail: Fall 2021 -
+  job:
+    detail: Ph.D. Student
+  icon: fa-plus-square
+  present: true
+
+- name:
     detail: Google Research
   desc:
     detail: Algorithms for video understanding.
