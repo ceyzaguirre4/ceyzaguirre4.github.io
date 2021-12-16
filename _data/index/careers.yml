@@ -2,7 +2,7 @@
 - name:
     detail: Stanford University
   desc:
-    detail: Incoming Ph.D. student
+    detail: Ph.D. student
   date:
     detail: Fall 2021 -
   job:
@@ -13,7 +13,7 @@
 - name:
     detail: Google Research
   desc:
-    detail: Algorithms for video understanding.
+    detail: Multimodal algorithms for video understanding.
   date:
     detail: Oct. 2020 - Jan. 2021
   job:
