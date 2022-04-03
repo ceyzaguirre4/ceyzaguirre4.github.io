@@ -2,9 +2,9 @@
 - name:
     detail: Stanford University
   desc:
-    detail: Ph.D. student
+    detail: Ph.D. student in Stanford Vision and Learning Lab (SVL) co-advised by Juan Carlos Niebles and Jiajun Wu.
   date:
-    detail: Fall 2021 -
+    detail: Fall 2021 - Ongoing
   job:
     detail: Ph.D. Student
   icon: fa-plus-square
@@ -35,7 +35,8 @@
 - name:
     detail: Pontificia Universidad Católica de Chile
   desc:
-    detail: Worked on Adaptive Computation Time on recurrent and non-recurrent models (and ensembles).
+    detail: Worked on Adaptive Computation Time on recurrent and non-recurrent models (and ensembles).<br>
+            Graduated with highest distinction.
   date:
     detail: July 2019 - Present
   job:
@@ -58,7 +59,7 @@
     detail: Pontificia Universidad Católica de Chile
   desc:
     detail: Majored in Software Engineering (minor Data Science).<br>
-            Grades in 96th percentile.
+            Graduated with distinction.
   date:
     detail: Jan. 2015 - Dec. 2019
   job:
