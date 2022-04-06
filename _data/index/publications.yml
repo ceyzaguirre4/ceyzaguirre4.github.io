@@ -16,3 +16,20 @@
   arxiv: http://arxiv.org/abs/2004.12770
   github: https://github.com/ceyzaguirre4/DACT-MAC
   webpage: /ai/2020/04/25/DACT-for-Visual-Reasoning.html
+
+- id: Eyzaguirre2022DACTBERT
+  img: /images/dact-bert/diagram.png
+  title: DACT-BERT Differentiable Adaptive Computation Time for an Efficient BERT Inference
+  authors: <b>Cristobal Eyzaguirre</b> and Felipe del Rio and Vladimir Araujo and Alvaro Soto
+  conference: NLP Power! The First Workshop on Efficient Benchmarking in NLP
+  year: 2022
+  bibtex: "@inproceedings{
+    eyzaguirre2022dactbert, <br>
+    title={DACT-BERT: Differentiable Adaptive Computation Time for an Efficient {BERT} Inference}, <br>
+    author={Cristobal Eyzaguirre and Felipe del Rio and Vladimir Araujo and Alvaro Soto}, <br>
+    booktitle={NLP Power! The First Workshop on Efficient Benchmarking in NLP}, <br>
+    year={2022}, <br>
+    url={https://openreview.net/forum?id=r_uxsgeoR-9}}"
+  arxiv: https://arxiv.org/abs/2109.11745
+  github: https://github.com/ceyzaguirre4/dact_bert
+  # webpage: /ai/2020/04/25/DACT-for-Visual-Reasoning.html
