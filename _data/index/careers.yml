@@ -4,7 +4,7 @@
   desc:
     detail: Ph.D. student in Stanford Vision and Learning Lab (SVL) co-advised by Juan Carlos Niebles and Jiajun Wu.
   date:
-    detail: Fall 2021 - Ongoing
+    detail: Fall 2021 - Present
   job:
     detail: Ph.D. Student
   icon: fa-plus-square
@@ -38,22 +38,22 @@
     detail: Worked on Adaptive Computation Time on recurrent and non-recurrent models (and ensembles).<br>
             Graduated with highest distinction.
   date:
-    detail: July 2019 - Present
+    detail: July 2019 - June 2021
   job:
     detail: M.Sc. Engineering
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: IALab
   desc:
     detail: Worked on DL models pertaining to Visual Reasoning, Adaptive Computation Time, Natural Language Processing and Action Recognition.
   date:
-    detail: July 2017 - Present
+    detail: July 2017 - June 2021
   job:
     detail: Student Researcher
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: Pontificia Universidad Católica de Chile
