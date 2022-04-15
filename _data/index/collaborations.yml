@@ -1,0 +1,18 @@
+# other collaborations section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest publications.yml' img be located at '/static/assets/img/landing', and edit following img items.
+- id: EuroGraphicsViz2020
+  # img: /images/dact-bert/diagram.png
+  title: Evaluating Interactive Comparison Techniques in a Multiclass Density Map for Visual Crime Analytics
+  authors: Svicarovic, Lukas and Parra, Denis and Lobo, Mariaa Jesus
+  conference: The Eurographics Association
+  year: 2020
+  bibtex: "@article{svicarovic2021evaluating, <br>
+    title={Evaluating Interactive Comparison Techniques in a Multiclass Density Map for Visual Crime Analytics}, <br>
+    author={Svicarovic, Lukas and Parra, Denis and Lobo, Mar{\\'\\i}a Jes{\\'u}s}, <br>
+    year={2021}
+}"
+  # arxiv: https://diglib.eg.org/bitstream/handle/10.2312/evs20211059/079-083.pdf
+  pdf: https://diglib.eg.org/bitstream/handle/10.2312/evs20211059/079-083.pdf
+  # github: https://github.com/ceyzaguirre4/dact_bert
+  # webpage: /ai/2020/04/25/DACT-for-Visual-Reasoning.html
