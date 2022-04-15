@@ -36,9 +36,17 @@ function toggle_visibility(id) {
                             <br>
                             <em>{{ publication.conference }}</em>, {{ publication.year }}
                             <br>
-                            <a href="{{ publication.arxiv }}">[arXiv]</a> /
-                            <a href="{{ publication.github }}">[GitHub]</a> /
-                            <a href="{{ publication.webpage }}">[Blog]</a> /
+                            {% if publication.arxiv %}
+                                <a href="{{ publication.arxiv }}">[arXiv]</a> /
+                            {% elsif publication.pdf %}
+                                <a href="{{ publication.pdf }}">[pdf]</a> /
+                            {% endif %}
+                            {% if publication.github %}
+                                <a href="{{ publication.github }}">[GitHub]</a> /
+                            {% endif %}
+                            {% if publication.webpage %}
+                                <a href="{{ publication.webpage }}">[Blog]</a> /
+                            {% endif %}
                             [<a href="javascript:void(0)" onclick="toggle_visibility('{{ publication.id }}');">bibtex</a>]
                             <div id="{{ publication.id }}" style="display:none; font-size:small;">
                                 <pre>
