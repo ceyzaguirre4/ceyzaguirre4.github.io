@@ -2,7 +2,7 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest publications.yml' img be located at '/static/assets/img/landing', and edit following img items.
 - id: Buch2022Revisiting
-  # img: /images/dact-bert/diagram.png
+  img: /images/atp/blog_fig1_0.webp
   title: Revisiting the ''Video'' in Video-Language Understanding
   authors: Shyamal Buch and <b>Cristobal Eyzaguirre</b> and Adrien Gaidon and Jiajun Wu and Li Fei-Fei and Juan Carlos Niebles
   conference: <b>(Oral)</b> IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
@@ -15,13 +15,14 @@
     year={2022}}"
   # arxiv: https://arxiv.org/abs/2109.11745
   # github: https://github.com/ceyzaguirre4/dact_bert
-  # webpage: /ai/2020/04/25/DACT-for-Visual-Reasoning.html
+  webpage: https://stanfordvl.github.io/atp-revisit-video-lang/
+  pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
 
 - id: Eyzaguirre2022DACTBERT
   img: /images/dact-bert/diagram.png
   title: DACT-BERT Differentiable Adaptive Computation Time for an Efficient BERT Inference
   authors: <b>Cristobal Eyzaguirre</b> and Felipe del Rio and Vladimir Araujo and Alvaro Soto
-  conference: NLP Power! The First Workshop on Efficient Benchmarking in NLP
+  conference: (ACL Workshop) NLP Power! The First Workshop on Efficient Benchmarking in NLP
   year: 2022
   bibtex: "@inproceedings{
     eyzaguirre2022dactbert, <br>
@@ -38,7 +39,7 @@
   img: /images/dact/diagram.png
   title: Differentiable Adaptive Computation Time for Visual Reasoning
   authors: <b>Cristobal Eyzaguirre</b> and A. Soto
-  conference: IEEE Conference on Computer Vision and Pattern Recognition (CVPR
+  conference: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
   year: 2020
   bibtex: "@article{Eyzaguirre2020DifferentiableAC, <br>
     title={Differentiable Adaptive Computation Time for Visual Reasoning}, <br>
