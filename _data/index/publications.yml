@@ -13,10 +13,10 @@
     author={Shyamal Buch and Cristobal Eyzaguirre and Adrien Gaidon and Jiajun Wu and Li Fei-Fei and Juan Carlos Niebles}, <br>
     booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, <br>
     year={2022}}"
-  # arxiv: https://arxiv.org/abs/2109.11745
   # github: https://github.com/ceyzaguirre4/dact_bert
   webpage: https://stanfordvl.github.io/atp-revisit-video-lang/
-  pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
+  arxiv: https://arxiv.org/abs/2206.01720
+  # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
 
 - id: Eyzaguirre2022DACTBERT
   img: /images/dact-bert/diagram.png
