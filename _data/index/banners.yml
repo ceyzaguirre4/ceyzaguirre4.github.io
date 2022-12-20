@@ -3,6 +3,9 @@
 #
 # Images are expected to be located in `static/assets/img/`.
 
+- src: landing/header_five_tall_mod.jpg
+  title: Patagonia 2022, Campos de Hielo Norte.
+
 - src: landing/header_three.jpg
   title: Backcountry Skiing (pic in Mount Dana's Plateau).
 
