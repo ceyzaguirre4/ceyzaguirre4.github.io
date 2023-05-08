@@ -1,6 +1,27 @@
 # other collaborations section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest publications.yml' img be located at '/static/assets/img/landing', and edit following img items.
+
+- id: macmillan2022lagrangian
+  # img: /images/dact-bert/diagram.png
+  title: Lagrangian scale decomposition via the graph Fourier transform
+  authors: MacMillan, Theodore and Ouellette, Nicholas T
+  conference: The Eurographics Association
+  year: 2022
+  bibtex: "@article{macmillan2022lagrangian,
+    title={Lagrangian scale decomposition via the graph Fourier transform},
+    author={MacMillan, Theodore and Ouellette, Nicholas T},
+    journal={PHYSICAL REVIEW FLUIDS Phys Rev Fluids},
+    volume={7},
+    pages={124401},
+    year={2022},
+    publisher={American Physical Society}
+  }"
+  # arxiv: https://diglib.eg.org/bitstream/handle/10.2312/evs20211059/079-083.pdf
+  pdf: https://www.researchgate.net/profile/Theodore-Macmillan/publication/366415554_Lagrangian_scale_decomposition_via_the_graph_Fourier_transform/links/63a2428fca6a9d254f8caa62/Lagrangian-scale-decomposition-via-the-graph-Fourier-transform.pdf
+  # github: https://github.com/ceyzaguirre4/dact_bert
+  # webpage: /ai/2020/04/25/DACT-for-Visual-Reasoning.html
+
 - id: EuroGraphicsViz2020
   # img: /images/dact-bert/diagram.png
   title: Evaluating Interactive Comparison Techniques in a Multiclass Density Map for Visual Crime Analytics
