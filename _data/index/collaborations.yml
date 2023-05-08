@@ -25,7 +25,7 @@
 - id: EuroGraphicsViz2020
   # img: /images/dact-bert/diagram.png
   title: Evaluating Interactive Comparison Techniques in a Multiclass Density Map for Visual Crime Analytics
-  authors: Svicarovic, Lukas and Parra, Denis and Lobo, Mariaa Jesus
+  authors: Svicarovic, Lukas and Parra, Denis and Lobo, Maria Jesus
   conference: The Eurographics Association
   year: 2020
   bibtex: "@article{svicarovic2021evaluating, <br>
