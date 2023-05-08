@@ -3,6 +3,9 @@
 #
 # Images are expected to be located in `static/assets/img/`.
 
+- src: landing/header_six.jpg
+  title: Backcountry Skiing (pic at the edge of Convict Lake after skiing Mount Morrison).
+
 - src: landing/header_five_tall_mod.jpg
   title: Patagonia 2022, Campos de Hielo Norte.
 
@@ -15,5 +18,5 @@
 - src: landing/header_one.jpg
   title: Trail-running Cerro Provincia, 9000ft.
 
-- src: landing/header_two.jpg
-  title: Monasterio del Escorial 2020.
+# - src: landing/header_two.jpg
+#   title: Monasterio del Escorial 2020.
