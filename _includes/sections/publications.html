@@ -47,6 +47,9 @@ function toggle_visibility(id) {
                             {% if publication.webpage %}
                                 <a href="{{ publication.webpage }}">[Blog]</a> /
                             {% endif %}
+                            {% if publication.poster %}
+                                <a href="{{ publication.poster }}">[Poster]</a> /
+                            {% endif %}
                             [<a href="javascript:void(0)" onclick="toggle_visibility('{{ publication.id }}');">bibtex</a>]
                             <div id="{{ publication.id }}" style="display:none; font-size:small;">
                                 <pre>

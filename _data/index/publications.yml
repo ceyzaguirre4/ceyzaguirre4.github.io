@@ -1,6 +1,116 @@
 # publications section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest publications.yml' img be located at '/static/assets/img/landing', and edit following img items.
+# - id: Buch2022Revisiting
+#   img: /images/atp/blog_fig1_0.webp
+#   title: Self-Supervised Learning of Representations for Space Generates Multi-Modular Grid Cells
+#   authors: Rylan Schaeffer and Mikail Khona and Tzuhsuan Ma and <b>Cristobal Eyzaguirre</b> and Sanmi Koyejo and Ila Fiete
+#   conference: Conference on Neural Information Processing Systems (NeurIPS)
+#   year: 2023
+#   bibtex: "@inproceedings{}"
+#   # github: 
+#   # webpage: 
+#   # arxiv: 
+#   # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
+
+- id: SDQES
+  img: /images/sdqes_teaser.pdf
+  title: "Streaming Detection of Queried Event Start"
+  authors: <b>Cristobal Eyzaguirre</b> and Eric Tang and Shyamal Buch and Adrien Gaidon and Jiajun Wu and Juan Carlos Niebles
+  conference: Neural Information Processing Systems (NeurIPS)
+  year: 2024
+  bibtex: "@inproceedings{Eyzaguirre_NeurIPS_2024, <br>
+  author = {Eyzaguirre, Cristobal and Tang, Eric and Buch, Shyamal and Gaidon, Adrien and Wu, Jiajun and Niebles, Juan Carlos}, <br>
+  title = {Streaming Detection of Queried Event Start}, <br>
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track}, <br>
+  address = {Vancouver, Canada}, <br>
+  month = dec, <br>
+  year = {2024}, <br>
+  preprint = {2412.03567}}"
+  github: https://github.com/sdqesdataset/sdqes_generation
+  webpage: https://sdqesdataset.github.io/
+  arxiv: https://arxiv.org/abs/2412.03567
+  # # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
+  poster: /images/NeuripsSDQES_poster_final.pdf
+
+- id: YunongIkeaManual
+  img: /images/ikeamanual_teaser.jpg
+  title: "IKEA Manuals at Work: 4D Grounding of Assembly Instructions on Internet Videos"
+  authors: Yunong Liu and <b>Cristobal Eyzaguirre</b> and Manling Li and Shubh Khanna and Juan Carlos Niebles and Vineeth Ravi and Saumitra Mishra and Weiyu Liu and Jiajun Wu
+  conference: Neural Information Processing Systems (NeurIPS)
+  year: 2024
+  bibtex: "@inproceedings{liu2024ikea, <br>
+      title={{IKEA} Manuals at Work: 4D Grounding of Assembly Instructions on Internet Videos}, <br>
+      author={Yunong Liu and Cristobal Eyzaguirre and Manling Li and Shubh Khanna and Juan Carlos Niebles and Vineeth Ravi and Saumitra Mishra and Weiyu Liu and Jiajun Wu}, <br>
+      booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track}, <br>
+      year={2024}}"
+  github: https://github.com/yunongLiu1/IKEA-Manuals-at-Work
+  webpage: https://yunongliu1.github.io/ikea-video-manual/
+  arxiv: https://arxiv.org/abs/2411.11409v1
+  # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
+  # poster: 
+
+- id: KeshikHourVideo
+  img: /images/hourvideo_teaser.gif
+  title: "HourVideo: 1-Hour Video-Language Understanding"
+  authors: Keshigeyan Chandrasegaran and Agrim Gupta and Lea M. Hadzic and Taran Kota and Jimming He and <b>Cristobal Eyzaguirre</b> and Zane Durante and Manling Li and Jiajun Wu and Fei-Fei Li
+  conference: Neural Information Processing Systems (NeurIPS)
+  year: 2024
+  bibtex: "@inproceedings{chandrasegaran2024hourvideo, <br>
+      title={HourVideo: 1-Hour Video-Language Understanding}, <br>
+      author={Chandrasegaran, Keshigeyan and Gupta, Agrim and Hadzic, Lea M. and Kota, Taran and  <br>
+      He, Jimming and Eyzaguirre, Cristobal and Durante, Zane and Li, Manling and Wu, Jiajun and Li, Fei-Fei}, <br>
+      booktitle = {Advances in Neural Information Processing Systems}, <br>
+      year={2024}, <br>
+      volume = {37}}"
+  github: https://github.com/keshik6/HourVideo
+  webpage: https://hourvideo.stanford.edu
+  arxiv: https://arxiv.org/abs/2411.04998
+  # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
+  # poster: 
+
+- id: SchaefferSelfSupervisedVLMAttack
+  # img: /images/gridcells_cover.png
+  title: When Do Universal Image Jailbreaks Transfer Between Vision-Language Models?
+  authors: Rylan Schaeffer and Dan Valentine and Luke Bailey and James Chua and <b>Cristobal Eyzaguirre</b> and Zane Durante and Joe Benton and Brando Miranda and Henry Sleight and John Hughes and Rajashree Agrawal and Mrinank Sharma and Scott Emmons and Sanmi Koyejo and Ethan Perez
+  conference: Preprint
+  year: 2024
+  bibtex: "@misc{schaeffer2024universalimagejailbreakstransfer,  <br>
+      title={When Do Universal Image Jailbreaks Transfer Between Vision-Language Models?},  <br>
+      author={Rylan Schaeffer and Dan Valentine and Luke Bailey and James Chua and Cristóbal Eyzaguirre and Zane Durante and Joe Benton and Brando Miranda and Henry Sleight and John Hughes and Rajashree Agrawal and Mrinank Sharma and Scott Emmons and Sanmi Koyejo and Ethan Perez}, <br>
+      year={2024}, <br>
+      eprint={2407.15211}, <br>
+      archivePrefix={arXiv}, <br>
+      primaryClass={cs.CL}, <br>
+      url={https://arxiv.org/abs/2407.15211}}"
+  # github: https://github.com/StanfordVL/atp-video-language
+  # webpage: http://rylanschaeffer.github.io/content/research/2023_neurips_ssl_gc/main.html
+  arxiv: https://arxiv.org/abs/2407.15211
+  # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
+
+- id: SchaefferSelfSupervisedGridCells
+  img: /images/gridcells_cover.png
+  title: Self-Supervised Learning of Representations for Space Generates Multi-Modular Grid Cells
+  authors: Rylan Schaeffer and Mikail Khona and Tzuhsuan Ma and <b>Cristobal Eyzaguirre</b> and Sanmi Koyejo and Ila Fiete
+  conference: Conference on Neural Information Processing Systems (NeurIPS)
+  year: 2023
+  bibtex: "@inproceedings{NEURIPS2023_4846257e, <br>
+  author = {Schaeffer, Rylan and Khona, Mikail and Ma, Tzuhsuan and Eyzaguirre, Cristobal and Koyejo, Sanmi and Fiete, Ila}, <br>
+  booktitle = {Advances in Neural Information Processing Systems}, <br>
+  editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine}, <br>
+  pages = {23140--23157}, <br>
+  publisher = {Curran Associates, Inc.}, <br>
+  title = {Self-Supervised Learning of Representations for Space Generates Multi-Modular Grid Cells}, <br>
+  url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/4846257e355f6923fc2a1fbe35099e91-Paper-Conference.pdf}, <br>
+  volume = {36}, <br>
+  year = {2023}}"
+  # github: https://github.com/StanfordVL/atp-video-language
+  webpage: http://rylanschaeffer.github.io/content/research/2023_neurips_ssl_gc/main.html
+  arxiv: https://arxiv.org/abs/2311.02316
+  # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
+  poster: http://rylanschaeffer.github.io/content/research/2023_neurips_ssl_gc/poster.png
+
+
 - id: Buch2022Revisiting
   img: /images/atp/blog_fig1_0.webp
   title: Revisiting the ''Video'' in Video-Language Understanding
@@ -17,6 +127,7 @@
   webpage: https://stanfordvl.github.io/atp-revisit-video-lang/
   arxiv: https://arxiv.org/abs/2206.01720
   # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
+  poster: https://stanfordvl.github.io/atp-revisit-video-lang//assets/atp_poster_cvpr2022.pdf
 
 - id: Eyzaguirre2022DACTBERT
   img: /images/dact-bert/diagram.png

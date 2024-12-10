@@ -2731,6 +2731,7 @@ body {
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
+      // background-size: auto 470px;
 
       /* Reveal */
       background-position: 50% 0;
@@ -2749,11 +2750,15 @@ body {
     .header-back {
       // /* Full width unless on mobile */
       min-height: 470px;
+      // width: 100%;
+
+      // background-image: url(/static/assets/img/landing/header_five.jpg);
 
       background-repeat: no-repeat;
       background-size:cover;
 
       // /* Reveal */
+      // background-attachment: fixed;
       background-position: 50% 0;
       // background-position-x: 50%;
       // background-position-y: 0%;
