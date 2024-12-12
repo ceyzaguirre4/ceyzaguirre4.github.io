@@ -45,7 +45,10 @@ function toggle_visibility(id) {
                                 <a href="{{ publication.github }}">[GitHub]</a> /
                             {% endif %}
                             {% if publication.webpage %}
-                                <a href="{{ publication.webpage }}">[Blog]</a> /
+                                <a href="{{ publication.webpage }}">[Webpage]</a> /
+                            {% endif %}
+                            {% if publication.blog %}
+                                <a href="{{ publication.blog }}">[Blog]</a> /
                             {% endif %}
                             {% if publication.poster %}
                                 <a href="{{ publication.poster }}">[Poster]</a> /

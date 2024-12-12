@@ -28,6 +28,7 @@
   year = {2024}, <br>
   preprint = {2412.03567}}"
   github: https://github.com/sdqesdataset/sdqes_generation
+  blog: https://www.niebles.net/blog/2024/sdqes/
   webpage: https://sdqesdataset.github.io/
   arxiv: https://arxiv.org/abs/2412.03567
   # # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
@@ -125,6 +126,7 @@
     year={2022}}"
   github: https://github.com/StanfordVL/atp-video-language
   webpage: https://stanfordvl.github.io/atp-revisit-video-lang/
+  blog: https://aicenter.stanford.edu/news/revisiting-video-video-language-understanding
   arxiv: https://arxiv.org/abs/2206.01720
   # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
   poster: https://stanfordvl.github.io/atp-revisit-video-lang//assets/atp_poster_cvpr2022.pdf
@@ -160,4 +162,4 @@
     pages={12814-12822}}"
   arxiv: http://arxiv.org/abs/2004.12770
   github: https://github.com/ceyzaguirre4/DACT-MAC
-  webpage: /ai/2020/04/25/DACT-for-Visual-Reasoning.html
+  blog: /ai/2020/04/25/DACT-for-Visual-Reasoning.html
