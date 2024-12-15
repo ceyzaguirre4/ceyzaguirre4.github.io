@@ -11,6 +11,17 @@
   present: true
 
 - name:
+    detail: Toyota Research Institute
+  desc:
+    detail: Characterizing question complexity in video question answering.
+  date:
+    detail: Summer 2023
+  job:
+    detail: Research Intern
+  icon: fa-plus-square
+  present: false
+
+- name:
     detail: Google Research
   desc:
     detail: Multimodal algorithms for video understanding.
