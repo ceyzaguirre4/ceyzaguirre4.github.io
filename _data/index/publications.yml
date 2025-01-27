@@ -71,11 +71,11 @@
   # poster: 
 
 - id: SchaefferSelfSupervisedVLMAttack
-  # img: /images/gridcells_cover.png
+  img: /images/adv_vlm_transfer.png
   title: When Do Universal Image Jailbreaks Transfer Between Vision-Language Models?
   authors: Rylan Schaeffer and Dan Valentine and Luke Bailey and James Chua and <b>Cristobal Eyzaguirre</b> and Zane Durante and Joe Benton and Brando Miranda and Henry Sleight and John Hughes and Rajashree Agrawal and Mrinank Sharma and Scott Emmons and Sanmi Koyejo and Ethan Perez
-  conference: Preprint
-  year: 2024
+  conference: ICLR 2025. The work also appeared at NeurIPS workshops RBFM (Best Paper), AdvMLFrontiers (Oral), Red Teaming GenAI (Oral), SoLaR (Spotlight), Safe & Trustworthy Agents.
+  year: 2025
   bibtex: "@misc{schaeffer2024universalimagejailbreakstransfer,  <br>
       title={When Do Universal Image Jailbreaks Transfer Between Vision-Language Models?},  <br>
       author={Rylan Schaeffer and Dan Valentine and Luke Bailey and James Chua and Cristóbal Eyzaguirre and Zane Durante and Joe Benton and Brando Miranda and Henry Sleight and John Hughes and Rajashree Agrawal and Mrinank Sharma and Scott Emmons and Sanmi Koyejo and Ethan Perez}, <br>
