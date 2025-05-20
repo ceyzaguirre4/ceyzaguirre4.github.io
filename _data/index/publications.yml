@@ -14,7 +14,7 @@
 #   # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
 
 - id: CodePlexity
-  img: /images/codeplexity_teaser.jpg
+  img: /images/codeplexity_gif.gif
   title: "Understanding Complexity in VideoQA via Visual Program Generation"
   authors: <b>Cristobal Eyzaguirre</b> Igor Vasiljevic and Achal Dave and Jiajun Wu and Rares Andrei Ambrus and Thomas Kollar and Juan Carlos Niebles and Pavel Tokmakov
   conference: International Conference on Machine Learning (ICML)
