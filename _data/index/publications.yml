@@ -35,6 +35,27 @@
   # poster:
 
 
+- id: Tstar
+  img: /images/tstar_method.png
+  title: "T*: Re-thinking Temporal Search for Long-Form Video Understanding"
+  authors: Jinhui Ye* and Zihan Wang* and Haosen Sun and Keshigeyan Chandrasegaran and Zane Durante and <b>Cristobal Eyzaguirre</b> and Yonatan Bisk and Juan Carlos Niebles and Ehsan Adeli and Li Fei-Fei and Jiajun Wu and Manling Li
+  conference: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+  year: 2025
+  bibtex: "@misc{tstar, <br>
+  title={Re-thinking Temporal Search for Long-Form Video Understanding}, <br>
+  author={Jinhui Ye and Zihan Wang and Haosen Sun and Keshigeyan Chandrasegaran and Zane Durante and Cristobal Eyzaguirre and Yonatan Bisk and Juan Carlos Niebles and Ehsan Adeli and Li Fei-Fei and Jiajun Wu and Manling Li}, <br>
+  year={2025}, <br>
+  eprint={2504.02259}, <br>
+  archivePrefix={arXiv}, <br>
+  primaryClass={cs.CV}, <br>
+  url={https://arxiv.org/abs/2504.02259}}"
+  github: https://github.com/LongVideoHaystack/TStar
+  # blog:
+  webpage: https://longvideohaystack.github.io/
+  arxiv: https://arxiv.org/abs/2504.02259
+  # pdf:
+  # poster:
+
 - id: SDQES
   img: /images/sdqes_teaser.pdf
   title: "Streaming Detection of Queried Event Start"
