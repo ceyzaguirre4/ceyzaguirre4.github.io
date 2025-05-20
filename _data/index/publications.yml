@@ -17,8 +17,8 @@
   img: /images/codeplexity_teaser.jpg
   title: "Understanding Complexity in VideoQA via Visual Program Generation"
   authors: <b>Cristobal Eyzaguirre</b> Igor Vasiljevic and Achal Dave and Jiajun Wu and Rares Andrei Ambrus and Thomas Kollar and Juan Carlos Niebles and Pavel Tokmakov
-  conference: Neural Information Processing Systems (NeurIPS)
-  year: 2024
+  conference: International Conference on Machine Learning (ICML)
+  year: 2025
   bibtex: "@misc{eyzaguirre2025understandingcomplexityvideoqavisual, <br>
   author = {Cristobal Eyzaguirre and Igor Vasiljevic and Achal Dave and Jiajun Wu and Rares Andrei Ambrus and Thomas Kollar and Juan Carlos Niebles and Pavel Tokmakov}, <br>
   title = {Understanding Complexity in VideoQA via Visual Program Generation}, <br>
