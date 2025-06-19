@@ -1,5 +1,16 @@
 # careers section data
 - name:
+    detail: Meta
+  desc:
+    detail: Working at GenAI Multimodal team.
+  date:
+    detail: Summer 2025
+  job:
+    detail: Sesearch Scientist Intern
+  icon: fa-plus-square
+  present: true
+
+- name:
     detail: Stanford University
   desc:
     detail: Ph.D. student in Stanford Vision and Learning Lab (SVL) co-advised by Juan Carlos Niebles and Jiajun Wu.
