@@ -13,6 +13,28 @@
 #   # arxiv: 
 #   # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
 
+# https://arxiv.org/abs/2507.09082
+- id: GenerativeMotion
+  # img: /images/codeplexity_gif.gif
+  title: "Taming generative video models for zero-shot optical flow extraction"
+  authors: Seungwoo Kim and Khai Loong Aw and Klemen Kotar and <b>Cristobal Eyzaguirre</b> and Wanhee Lee and Yunong Liu and Jared Watrous and Stefan Stojanov and Juan Carlos Niebles and Jiajun Wu and Daniel L. K. Yamins
+  conference: Neural Information Processing Systems (NeurIPS)
+  year: 2025
+  # bibtex: "@misc{eyzaguirre2025understandingcomplexityvideoqavisual, <br>
+  # author = {Cristobal Eyzaguirre and Igor Vasiljevic and Achal Dave and Jiajun Wu and Rares Andrei Ambrus and Thomas Kollar and Juan Carlos Niebles and Pavel Tokmakov}, <br>
+  # title = {Understanding Complexity in VideoQA via Visual Program Generation}, <br>
+  # year = {2025}, <br>
+  # howpublished = {Forty-second International Conference on Machine Learning (ICML)}, <br>
+  # url = {https://openreview.net/forum?id=6GFPnVHEKB} <br>
+  # }"
+  github: https://github.com/neuroailab/kl_tracing
+  # blog:
+  webpage: https://neuroailab.github.io/projects/kl_tracing/
+  arxiv: https://arxiv.org/abs/2507.09082
+  # pdf:
+  # poster:
+
+
 - id: CodePlexity
   img: /images/codeplexity_gif.gif
   title: "Understanding Complexity in VideoQA via Visual Program Generation"
@@ -23,10 +45,9 @@
   author = {Cristobal Eyzaguirre and Igor Vasiljevic and Achal Dave and Jiajun Wu and Rares Andrei Ambrus and Thomas Kollar and Juan Carlos Niebles and Pavel Tokmakov}, <br>
   title = {Understanding Complexity in VideoQA via Visual Program Generation}, <br>
   year = {2025}, <br>
-  eprint={2505.13429}, <br>
-  archivePrefix={arXiv}, <br>
-  primaryClass={cs.CV}, <br>
-  url={https://arxiv.org/abs/2505.13429}}"
+  howpublished = {Forty-second International Conference on Machine Learning (ICML)}, <br>
+  url = {https://openreview.net/forum?id=6GFPnVHEKB} <br>
+  }"
   github: https://github.com/ceyzaguirre4/codeplexity
   # blog:
   webpage: https://ceyzaguirre4.github.io/codeplexity/
