@@ -15,7 +15,7 @@
 
 # https://arxiv.org/abs/2507.09082
 - id: GenerativeMotion
-  # img: /images/codeplexity_gif.gif
+  img: https://neuroailab.github.io/projects/kl_tracing/assets/figures/fig_general_method.png
   title: "Taming generative video models for zero-shot optical flow extraction"
   authors: Seungwoo Kim and Khai Loong Aw and Klemen Kotar and <b>Cristobal Eyzaguirre</b> and Wanhee Lee and Yunong Liu and Jared Watrous and Stefan Stojanov and Juan Carlos Niebles and Jiajun Wu and Daniel L. K. Yamins
   conference: Neural Information Processing Systems (NeurIPS)
