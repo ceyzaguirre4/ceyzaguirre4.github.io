@@ -13,7 +13,26 @@
 #   # arxiv: 
 #   # pdf: https://drive.google.com/file/d/1oBeyLYCNSglpTjf20LRC1cXsYa0mDqLz/view?usp=sharing
 
-# https://arxiv.org/abs/2507.09082
+# https://arxiv.org/abs/2511.00261
+- id: SpotTheBall
+  img: /images/spot_the_ball_teaser.png
+  title: "Spot The Ball: A Benchmark for Visual Social Inference"
+  authors: Neha Balamurugan and Sarah Wu and Adam Chun and Gabe Gaw and <b>Cristobal Eyzaguirre</b> and Tobias Gerstenberg
+  conference: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+  year: 2026
+  bibtex: "@misc{balamurugan2025spottheball, <br>
+  title={Spot The Ball: A Benchmark for Visual Social Inference}, <br>
+  author={Neha Balamurugan and Sarah Wu and Adam Chun and Gabe Gaw and Cristobal Eyzaguirre and Tobias Gerstenberg}, <br>
+  year={2025}, <br>
+  eprint={2511.00261}, <br>
+  archivePrefix={arXiv}, <br>
+  primaryClass={cs.CV}, <br>
+  note={Accepted to CVPR 2026}, <br>
+  url={https://arxiv.org/abs/2511.00261}}"
+  arxiv: https://arxiv.org/abs/2511.00261
+  # pdf:
+  # poster:
+
 - id: GenerativeMotion
   img: https://neuroailab.github.io/projects/kl_tracing/assets/figures/fig_general_method.png
   title: "Taming generative video models for zero-shot optical flow extraction"
