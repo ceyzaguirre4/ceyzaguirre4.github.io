@@ -3,6 +3,12 @@
 #
 # Images are expected to be located in `static/assets/img/`.
 
+- src: landing/header_windsurf.jpeg
+  title: Windsurf (Lago Rupanco, Chile, 2026).
+
+- src: landing/header_kayac_tall.jpg
+  title: Kayac (Lago Rupanco, Chile, 2026).
+
 - src: landing/header_seven.jpg
   title: MTB (Sea Otter Classic 2025).
 
@@ -21,5 +27,5 @@
 - src: landing/header_one.jpg
   title: Trail-running Cerro Provincia, 9000ft.
 
-- src: landing/header_two.jpg
-  title: Monasterio del Escorial 2020.
+# - src: landing/header_two.jpg
+#   title: Monasterio del Escorial 2020.
