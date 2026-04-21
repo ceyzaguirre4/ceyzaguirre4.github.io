@@ -13,7 +13,7 @@
 - name:
     detail: Meta
   desc:
-    detail: Working at GenAI Multimodal team.
+    detail: Worked on multimodal post-training for video understanding in Llama within Meta's GenAI Multimodal team.
   date:
     detail: Summer 2025
   job:
@@ -35,7 +35,7 @@
 - name:
     detail: Google Research
   desc:
-    detail: Multimodal algorithms for video understanding.
+    detail: Researched multimodal algorithms for active speaker detection, and integrated the model into a production MediaPipe pipeline (included face detection, facial landmark extraction, and audio processing models).
   date:
     detail: Oct. 2020 - Jan. 2021
   job:
