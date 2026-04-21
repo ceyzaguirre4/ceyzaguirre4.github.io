@@ -28,10 +28,10 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-ubuntu
     - name: icon-javascript
-  desc: "Ph.D. student in Stanford's Vision and Learning Lab (SVL) studying efficient video understanding where I'm co-advised by Juan Carlos Niebles and Jiajun Wu.
-Prior to this I was a M.Sc.Eng. Student at Pontificia Universidad Católica de Chile, where I researched for over 2 years, with emphasis in Machine Reasoning, Meta Learning and Adaptive Computation Time models.
-Additionally I was a teaching assistant for the courses Artificial intelligence, Deep Learning, and the Capstone for Software Engineering majors, as well as teacher in the same institution's AI diploma course.
-I'm passionate about the outdoors (ultra-running, skiing, hiking, etc!) and scientific innovation."  # Describe yourself.
+  desc: "Ph.D. student in Stanford's Vision and Learning Lab (SVL), co-advised by Juan Carlos Niebles and Jiajun Wu, studying efficient video understanding, multimodal reasoning, and evaluation of generative video models.
+Previously I completed an M.Sc.Eng. at Pontificia Universidad Catolica de Chile, where I worked on machine reasoning, meta-learning, and adaptive computation.
+I have also been a course assistant for CS231n at Stanford twice, in Spring 2025 and Spring 2026. Previously, at Pontificia Universidad Catolica de Chile, I supported courses in artificial intelligence, deep learning, and software engineering while teaching in the institution's AI diploma program.
+I'm passionate about the outdoors (mountain biking, ultra-running, skiing, hiking, etc.) and scientific innovation in general."  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

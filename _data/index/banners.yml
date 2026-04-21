@@ -3,20 +3,20 @@
 #
 # Images are expected to be located in `static/assets/img/`.
 
-- src: landing/header_windsurf.jpeg
-  title: Windsurf (Lago Rupanco, Chile, 2026).
+- src: landing/header_five_tall_mod.jpg
+  title: Patagonia 2022, Campos de Hielo Norte.
 
 - src: landing/header_kayac_tall.jpg
   title: Kayac (Lago Rupanco, Chile, 2026).
+
+- src: landing/header_windsurf.jpeg
+  title: Windsurf (Lago Rupanco, Chile, 2026).
 
 - src: landing/header_seven.jpg
   title: MTB (Sea Otter Classic 2025).
 
 - src: landing/header_six.jpg
   title: Backcountry Skiing (pic at the edge of Convict Lake after skiing Mount Morrison).
-
-- src: landing/header_five_tall_mod.jpg
-  title: Patagonia 2022, Campos de Hielo Norte.
 
 - src: landing/header_three.jpg
   title: Backcountry Skiing (pic in Mount Dana's Plateau).
